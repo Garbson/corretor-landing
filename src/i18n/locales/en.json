@@ -7,15 +7,34 @@
     "contact": "Contact"
   },
   "hero": {
+    "badge": "Specialist Broker in Balneário Camboriú, Itapema and Porto Belo",
+    "badgeMobile": "Investment Specialist",
     "title": "Your Real Estate Investment on Santa Catarina Coast",
     "subtitle": "Specialist in real estate investments and luxury properties in Balneário Camboriú, Itapema and Porto Belo. I turn your investment into profitable reality.",
     "cta": "Invest Now",
-    "ctaSecondary": "Talk to Guitierry"
+    "ctaSecondary": "Talk to Guitierry",
+    "whatsappMessage": "Hi Guitierry! I'd like to know more about real estate investments on the Santa Catarina coast.",
+    "stats": {
+      "experienceLabel": "Years of Experience",
+      "propertiesLabel": "Properties Sold",
+      "clientsLabel": "Satisfied Clients"
+    }
   },
   "about": {
+    "badge": "About Me",
     "title": "Guitierry Mariano",
     "subtitle": "Your trusted partner in coastal real estate investments",
     "description": "I'm Guitierry Mariano, a real estate broker specialized in real estate investments and luxury properties on the Santa Catarina coast. With deep knowledge of the Balneário Camboriú, Itapema and Porto Belo market, I offer precise market analysis and high-return investment opportunities. My mission is to maximize your profits and ensure safe investments in the coastal real estate market.",
+    "photoPlaceholder": "Professional Photo",
+    "photoDescription": "Your specialist broker",
+    "certifications": {
+      "title": "Certifications and Recognitions",
+      "subtitle": "Proven professional qualification"
+    },
+    "badges": {
+      "topBroker": "Top Broker",
+      "specialist": "Specialist"
+    },
     "stats": {
       "experience": "10+",
       "experienceLabel": "Years of Experience",
@@ -26,8 +45,33 @@
     }
   },
   "services": {
+    "badge": "Our Services",
     "title": "Specialized Services",
     "subtitle": "Complete solutions for your real estate investments on Santa Catarina coast",
+    "learnMore": "Learn more",
+    "process": {
+      "title": "How the Process Works",
+      "subtitle": "A simple and transparent process for your security",
+      "steps": {
+        "initial": {
+          "title": "Initial Consultation",
+          "description": "We understand your needs and goals"
+        },
+        "research": {
+          "title": "Research & Analysis",
+          "description": "We search for the best market opportunities"
+        },
+        "negotiation": {
+          "title": "Negotiation",
+          "description": "We negotiate the best price and conditions"
+        },
+        "closing": {
+          "title": "Closing",
+          "description": "We take care of all documentation and delivery"
+        }
+      },
+      "cta": "Get Started Now"
+    },
     "items": {
       "buying": {
         "title": "Strategic Investment",
@@ -91,6 +135,7 @@
     "badge": "Get In Touch",
     "title": "Let's Talk About Your Investment?",
     "subtitle": "Get in touch and discover the best investment opportunities on the Santa Catarina coast",
+    "whatsappMessage": "Hi Guitierry! I'd like to know more about real estate investments on the Santa Catarina coast.",
     "whatsapp": {
       "title": "Talk Directly on WhatsApp",
       "description": "Personalized service and real-time investment opportunity analysis",
@@ -159,7 +204,13 @@
   "cta": {
     "ready": "Ready to Invest on Santa Catarina Coast?",
     "contact": "Let's identify together the best investment opportunity for you in Balneário Camboriú, Itapema or Porto Belo!",
-    "button": "Talk to Guitierry Now"
+    "button": "Talk to Guitierry Now",
+    "stats": {
+      "supportLabel": "Support",
+      "freeLabel": "Free",
+      "yearsLabel": "Years",
+      "salesLabel": "Sales"
+    }
   },
   "footer": {
     "rights": "Guitierry Mariano - Real Estate Broker. All rights reserved.",

@@ -18,7 +18,7 @@ const scrollToContact = () => {
       <div class="text-center mb-16 animate-on-scroll">
         <div class="inline-block mb-6">
           <span class="bg-gradient-to-r from-accent-100 to-primary-100 text-primary-950 px-4 py-2 rounded-full text-sm font-semibold">
-            Nossos Serviços
+            {{ t('services.badge') }}
           </span>
         </div>
         <h2 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
@@ -45,7 +45,7 @@ const scrollToContact = () => {
             {{ t('services.items.buying.description') }}
           </p>
           <button @click="scrollToContact" class="text-primary-950 font-semibold hover:text-accent-950 flex items-center group-hover:translate-x-2 transition-all duration-300 mt-auto">
-            Saiba mais
+            {{ t('services.learnMore') }}
             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
             </svg>
@@ -66,7 +66,7 @@ const scrollToContact = () => {
             {{ t('services.items.selling.description') }}
           </p>
           <button @click="scrollToContact" class="text-primary-950 font-semibold hover:text-accent-950 flex items-center group-hover:translate-x-2 transition-all duration-300 mt-auto">
-            Saiba mais
+            {{ t('services.learnMore') }}
             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
             </svg>
@@ -120,10 +120,10 @@ const scrollToContact = () => {
       <div class="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 lg:p-12 border-2 border-gray-100 shadow-xl animate-on-scroll">
         <div class="text-center mb-12">
           <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Como Funciona o Processo
+            {{ t('services.process.title') }}
           </h3>
           <p class="text-xl text-gray-600">
-            Um processo simples e transparente para sua segurança
+            {{ t('services.process.subtitle') }}
           </p>
         </div>
 
@@ -135,8 +135,8 @@ const scrollToContact = () => {
                 1
               </div>
             </div>
-            <h4 class="text-lg font-bold text-gray-900 mb-3">Consulta Inicial</h4>
-            <p class="text-gray-600">Entendemos suas necessidades e objetivos</p>
+            <h4 class="text-lg font-bold text-gray-900 mb-3">{{ t('services.process.steps.initial.title') }}</h4>
+            <p class="text-gray-600">{{ t('services.process.steps.initial.description') }}</p>
           </div>
 
           <!-- Step 2 -->
@@ -146,8 +146,8 @@ const scrollToContact = () => {
                 2
               </div>
             </div>
-            <h4 class="text-lg font-bold text-gray-900 mb-3">Pesquisa & Análise</h4>
-            <p class="text-gray-600">Buscamos as melhores oportunidades do mercado</p>
+            <h4 class="text-lg font-bold text-gray-900 mb-3">{{ t('services.process.steps.research.title') }}</h4>
+            <p class="text-gray-600">{{ t('services.process.steps.research.description') }}</p>
           </div>
 
           <!-- Step 3 -->
@@ -157,8 +157,8 @@ const scrollToContact = () => {
                 3
               </div>
             </div>
-            <h4 class="text-lg font-bold text-gray-900 mb-3">Negociação</h4>
-            <p class="text-gray-600">Negociamos o melhor preço e condições</p>
+            <h4 class="text-lg font-bold text-gray-900 mb-3">{{ t('services.process.steps.negotiation.title') }}</h4>
+            <p class="text-gray-600">{{ t('services.process.steps.negotiation.description') }}</p>
           </div>
 
           <!-- Step 4 -->
@@ -168,15 +168,15 @@ const scrollToContact = () => {
                 4
               </div>
             </div>
-            <h4 class="text-lg font-bold text-gray-900 mb-3">Finalização</h4>
-            <p class="text-gray-600">Cuidamos de toda documentação e entrega</p>
+            <h4 class="text-lg font-bold text-gray-900 mb-3">{{ t('services.process.steps.closing.title') }}</h4>
+            <p class="text-gray-600">{{ t('services.process.steps.closing.description') }}</p>
           </div>
         </div>
 
         <!-- CTA Button -->
         <div class="text-center mt-12">
           <button @click="scrollToContact" class="bg-gradient-to-r from-accent-600 to-accent-950 text-white px-10 py-5 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:shadow-accent-500/30 transform hover:scale-105 transition-all duration-300">
-            Começar Agora
+            {{ t('services.process.cta') }}
           </button>
         </div>
       </div>

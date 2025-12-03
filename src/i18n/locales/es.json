@@ -7,15 +7,34 @@
     "contact": "Contacto"
   },
   "hero": {
+    "badge": "Corredor Especialista en Balneário Camboriú, Itapema y Porto Belo",
+    "badgeMobile": "Especialista en Inversiones",
     "title": "Su Inversión Inmobiliaria en la Costa de Santa Catarina",
     "subtitle": "Especialista en inversiones inmobiliarias y propiedades de lujo en Balneário Camboriú, Itapema y Porto Belo. Transformo su inversión en realidad rentable.",
     "cta": "Invertir Ahora",
-    "ctaSecondary": "Hablar con Guitierry"
+    "ctaSecondary": "Hablar con Guitierry",
+    "whatsappMessage": "¡Hola Guitierry! Me gustaría saber más sobre inversiones inmobiliarias en la costa de Santa Catarina.",
+    "stats": {
+      "experienceLabel": "Años de Experiencia",
+      "propertiesLabel": "Propiedades Vendidas",
+      "clientsLabel": "Clientes Satisfechos"
+    }
   },
   "about": {
+    "badge": "Sobre Mí",
     "title": "Guitierry Mariano",
     "subtitle": "Su socio de confianza en inversiones inmobiliarias costeras",
     "description": "Soy Guitierry Mariano, corredor de bienes raíces especializado en inversiones inmobiliarias y propiedades de lujo en la costa de Santa Catarina. Con profundo conocimiento del mercado de Balneário Camboriú, Itapema y Porto Belo, ofrezco análisis de mercado precisos y oportunidades de inversión de alto retorno. Mi misión es maximizar sus ganancias y garantizar inversiones seguras en el mercado inmobiliario costero.",
+    "photoPlaceholder": "Foto Profesional",
+    "photoDescription": "Su corredor especialista",
+    "certifications": {
+      "title": "Certificaciones y Reconocimientos",
+      "subtitle": "Calificación profesional comprobada"
+    },
+    "badges": {
+      "topBroker": "Top Broker",
+      "specialist": "Especialista"
+    },
     "stats": {
       "experience": "10+",
       "experienceLabel": "Años de Experiencia",
@@ -26,8 +45,33 @@
     }
   },
   "services": {
+    "badge": "Nuestros Servicios",
     "title": "Servicios Especializados",
     "subtitle": "Soluciones completas para sus inversiones inmobiliarias en la costa de Santa Catarina",
+    "learnMore": "Saber más",
+    "process": {
+      "title": "Cómo Funciona el Proceso",
+      "subtitle": "Un proceso simple y transparente para su seguridad",
+      "steps": {
+        "initial": {
+          "title": "Consulta Inicial",
+          "description": "Entendemos sus necesidades y objetivos"
+        },
+        "research": {
+          "title": "Investigación y Análisis",
+          "description": "Buscamos las mejores oportunidades del mercado"
+        },
+        "negotiation": {
+          "title": "Negociación",
+          "description": "Negociamos el mejor precio y condiciones"
+        },
+        "closing": {
+          "title": "Finalización",
+          "description": "Cuidamos toda la documentación y entrega"
+        }
+      },
+      "cta": "Comenzar Ahora"
+    },
     "items": {
       "buying": {
         "title": "Inversión Estratégica",
@@ -91,6 +135,7 @@
     "badge": "Póngase en Contacto",
     "title": "¿Hablemos sobre Su Inversión?",
     "subtitle": "Póngase en contacto y descubra las mejores oportunidades de inversión en la costa de Santa Catarina",
+    "whatsappMessage": "¡Hola Guitierry! Me gustaría saber más sobre inversiones inmobiliarias en la costa de Santa Catarina.",
     "whatsapp": {
       "title": "Hable Directamente por WhatsApp",
       "description": "Atención personalizada y análisis de oportunidades de inversión en tiempo real",
@@ -159,7 +204,13 @@
   "cta": {
     "ready": "¿Listo para Invertir en la Costa de Santa Catarina?",
     "contact": "¡Identifiquemos juntos la mejor oportunidad de inversión para usted en Balneário Camboriú, Itapema o Porto Belo!",
-    "button": "Hablar con Guitierry Ahora"
+    "button": "Hablar con Guitierry Ahora",
+    "stats": {
+      "supportLabel": "Soporte",
+      "freeLabel": "Gratuito",
+      "yearsLabel": "Años",
+      "salesLabel": "Ventas"
+    }
   },
   "footer": {
     "rights": "Guitierry Mariano - Corredor de Bienes Raíces. Todos los derechos reservados.",

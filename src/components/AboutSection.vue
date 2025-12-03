@@ -12,7 +12,7 @@ const { t } = useI18n()
         <div class="animate-on-scroll">
           <div class="inline-block mb-6">
             <span class="bg-gradient-to-r from-accent-100 to-primary-100 text-primary-950 px-4 py-2 rounded-full text-sm font-semibold">
-              Sobre Mim
+              {{ t('about.badge') }}
             </span>
           </div>
           <h2 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
@@ -71,8 +71,8 @@ const { t } = useI18n()
                 <svg class="w-32 h-32 mx-auto mb-6 opacity-80" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                 </svg>
-                <p class="text-2xl font-bold mb-2">Foto Profissional</p>
-                <p class="text-lg opacity-90">Seu corretor especialista</p>
+                <p class="text-2xl font-bold mb-2">{{ t('about.photoPlaceholder') }}</p>
+                <p class="text-lg opacity-90">{{ t('about.photoDescription') }}</p>
               </div>
             </div>
           </div>
@@ -83,9 +83,9 @@ const { t } = useI18n()
       <div class="mt-24 lg:mt-32 animate-on-scroll">
         <div class="text-center mb-12">
           <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Certificações e Reconhecimentos
+            {{ t('about.certifications.title') }}
           </h3>
-          <p class="text-gray-600">Qualificação profissional comprovada</p>
+          <p class="text-gray-600">{{ t('about.certifications.subtitle') }}</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-4xl mx-auto">
@@ -105,7 +105,7 @@ const { t } = useI18n()
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
               </svg>
             </div>
-            <span class="font-bold text-lg text-gray-900">Top Broker</span>
+            <span class="font-bold text-lg text-gray-900">{{ t('about.badges.topBroker') }}</span>
           </div>
 
           <div class="group flex items-center space-x-3 bg-gradient-to-br from-white to-gray-50 border-2 border-primary-100 px-6 py-5 rounded-2xl hover:shadow-xl hover:scale-105 hover:border-primary-300 transition-all duration-300">
@@ -114,7 +114,7 @@ const { t } = useI18n()
                 <path d="M9 11H7v6h2v-6zm4 0h-2v6h2v-6zm4 0h-2v6h2v-6zm2.5-9H19V1h-2v1H7V1H5v1H4.5C3.12 2 2.03 3.12 2.03 4.5L2 20.5C2 21.88 3.12 23 4.5 23h15c1.38 0 2.5-1.12 2.5-2.5v-16C22 3.12 20.88 2 19.5 2zM19.5 20.5h-15V8h15v12.5z"/>
               </svg>
             </div>
-            <span class="font-bold text-lg text-gray-900">Especialista</span>
+            <span class="font-bold text-lg text-gray-900">{{ t('about.badges.specialist') }}</span>
           </div>
         </div>
       </div>
