@@ -60,19 +60,19 @@ const scrollToContact = () => {
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
           <div class="text-center">
             <div class="text-2xl font-bold text-white mb-1">24/7</div>
-            <div class="text-blue-200 text-sm">Suporte</div>
+            <div class="text-blue-200 text-sm">{{ t('cta.stats.supportLabel') }}</div>
           </div>
           <div class="text-center">
             <div class="text-2xl font-bold text-white mb-1">100%</div>
-            <div class="text-blue-200 text-sm">Gratuito</div>
+            <div class="text-blue-200 text-sm">{{ t('cta.stats.freeLabel') }}</div>
           </div>
           <div class="text-center">
             <div class="text-2xl font-bold text-white mb-1">10+</div>
-            <div class="text-blue-200 text-sm">Anos</div>
+            <div class="text-blue-200 text-sm">{{ t('cta.stats.yearsLabel') }}</div>
           </div>
           <div class="text-center">
             <div class="text-2xl font-bold text-white mb-1">500+</div>
-            <div class="text-blue-200 text-sm">Vendas</div>
+            <div class="text-blue-200 text-sm">{{ t('cta.stats.salesLabel') }}</div>
           </div>
         </div>
       </div>

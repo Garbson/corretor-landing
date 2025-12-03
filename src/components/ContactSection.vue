@@ -4,10 +4,10 @@ import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 
 const whatsappNumber = '5547989141108'
-const whatsappMessage = encodeURIComponent('Olá Guitierry! Gostaria de saber mais sobre investimentos imobiliários no litoral catarinense.')
+const whatsappMessage = () => encodeURIComponent(t('contact.whatsappMessage'))
 
 const openWhatsApp = () => {
-  window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank')
+  window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage()}`, '_blank')
 }
 </script>
 

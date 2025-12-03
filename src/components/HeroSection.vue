@@ -4,7 +4,7 @@ import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 
 const whatsappNumber = '5547989141108'
-const whatsappMessage = encodeURIComponent('Olá Guitierry! Gostaria de saber mais sobre investimentos imobiliários no litoral catarinense.')
+const whatsappMessage = () => encodeURIComponent(t('hero.whatsappMessage'))
 
 const scrollToContact = () => {
   const element = document.getElementById('contact')
@@ -14,7 +14,7 @@ const scrollToContact = () => {
 }
 
 const openWhatsApp = () => {
-  window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank')
+  window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage()}`, '_blank')
 }
 </script>
 
@@ -41,8 +41,8 @@ const openWhatsApp = () => {
           <svg class="w-4 h-4 md:w-5 md:h-5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
             <path d="M12 2L2 7v10c0 5.55 3.84 9.95 9 11 5.16-1.05 9-5.45 9-11V7l-10-5z"/>
           </svg>
-          <span class="hidden sm:inline">Corretor Especialista em Balneário Camboriú, Itapema e Porto Belo</span>
-          <span class="sm:hidden">Especialista em Investimentos</span>
+          <span class="hidden sm:inline">{{ t('hero.badge') }}</span>
+          <span class="sm:hidden">{{ t('hero.badgeMobile') }}</span>
         </div>
 
         <!-- Hero Title -->
@@ -85,15 +85,15 @@ const openWhatsApp = () => {
         <div class="grid grid-cols-2 md:grid-cols-3 gap-8 max-w-3xl mx-auto animate-fade-in-up">
           <div class="text-center p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 hover:scale-105">
             <div class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-accent-300 to-sand-DEFAULT bg-clip-text text-transparent mb-2">10+</div>
-            <div class="text-sm md:text-base text-white/80 font-medium">Anos de Experiência</div>
+            <div class="text-sm md:text-base text-white/80 font-medium">{{ t('hero.stats.experienceLabel') }}</div>
           </div>
           <div class="text-center p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 hover:scale-105">
             <div class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-accent-300 to-sand-DEFAULT bg-clip-text text-transparent mb-2">500+</div>
-            <div class="text-sm md:text-base text-white/80 font-medium">Imóveis Vendidos</div>
+            <div class="text-sm md:text-base text-white/80 font-medium">{{ t('hero.stats.propertiesLabel') }}</div>
           </div>
           <div class="text-center p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 hover:scale-105 col-span-2 md:col-span-1">
             <div class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-accent-300 to-sand-DEFAULT bg-clip-text text-transparent mb-2">100%</div>
-            <div class="text-sm md:text-base text-white/80 font-medium">Clientes Satisfeitos</div>
+            <div class="text-sm md:text-base text-white/80 font-medium">{{ t('hero.stats.clientsLabel') }}</div>
           </div>
         </div>
       </div>

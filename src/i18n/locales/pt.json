@@ -7,15 +7,34 @@
     "contact": "Contato"
   },
   "hero": {
+    "badge": "Corretor Especialista em Balneário Camboriú, Itapema e Porto Belo",
+    "badgeMobile": "Especialista em Investimentos",
     "title": "Seu Investimento Imobiliário no Litoral Catarinense",
     "subtitle": "Especialista em investimentos imobiliários e propriedades de alto padrão em Balneário Camboriú, Itapema e Porto Belo. Transformo seu investimento em realidade lucrativa.",
     "cta": "Investir Agora",
-    "ctaSecondary": "Falar com Guitierry"
+    "ctaSecondary": "Falar com Guitierry",
+    "whatsappMessage": "Olá Guitierry! Gostaria de saber mais sobre investimentos imobiliários no litoral catarinense.",
+    "stats": {
+      "experienceLabel": "Anos de Experiência",
+      "propertiesLabel": "Imóveis Vendidos",
+      "clientsLabel": "Clientes Satisfeitos"
+    }
   },
   "about": {
+    "badge": "Sobre Mim",
     "title": "Guitierry Mariano",
     "subtitle": "Seu parceiro de confiança em investimentos imobiliários no litoral",
     "description": "Sou Guitierry Mariano, corretor de imóveis especializado em investimentos imobiliários e propriedades de alto padrão no litoral catarinense. Com profundo conhecimento do mercado de Balneário Camboriú, Itapema e Porto Belo, ofereço análises de mercado precisas e oportunidades de investimento com alto retorno. Minha missão é maximizar seus lucros e garantir investimentos seguros no mercado imobiliário litorâneo.",
+    "photoPlaceholder": "Foto Profissional",
+    "photoDescription": "Seu corretor especialista",
+    "certifications": {
+      "title": "Certificações e Reconhecimentos",
+      "subtitle": "Qualificação profissional comprovada"
+    },
+    "badges": {
+      "topBroker": "Top Broker",
+      "specialist": "Especialista"
+    },
     "stats": {
       "experience": "10+",
       "experienceLabel": "Anos de Experiência",
@@ -26,8 +45,33 @@
     }
   },
   "services": {
+    "badge": "Nossos Serviços",
     "title": "Serviços Especializados",
     "subtitle": "Soluções completas para seus investimentos imobiliários no litoral catarinense",
+    "learnMore": "Saiba mais",
+    "process": {
+      "title": "Como Funciona o Processo",
+      "subtitle": "Um processo simples e transparente para sua segurança",
+      "steps": {
+        "initial": {
+          "title": "Consulta Inicial",
+          "description": "Entendemos suas necessidades e objetivos"
+        },
+        "research": {
+          "title": "Pesquisa & Análise",
+          "description": "Buscamos as melhores oportunidades do mercado"
+        },
+        "negotiation": {
+          "title": "Negociação",
+          "description": "Negociamos o melhor preço e condições"
+        },
+        "closing": {
+          "title": "Finalização",
+          "description": "Cuidamos de toda documentação e entrega"
+        }
+      },
+      "cta": "Começar Agora"
+    },
     "items": {
       "buying": {
         "title": "Investimento Estratégico",
@@ -91,6 +135,7 @@
     "badge": "Entre em Contato",
     "title": "Vamos Conversar sobre Seu Investimento?",
     "subtitle": "Entre em contato e descubra as melhores oportunidades de investimento no litoral catarinense",
+    "whatsappMessage": "Olá Guitierry! Gostaria de saber mais sobre investimentos imobiliários no litoral catarinense.",
     "whatsapp": {
       "title": "Fale Direto no WhatsApp",
       "description": "Atendimento personalizado e análise de oportunidades de investimento em tempo real",
@@ -159,7 +204,13 @@
   "cta": {
     "ready": "Pronto para Investir no Litoral Catarinense?",
     "contact": "Vamos juntos identificar a melhor oportunidade de investimento para você em Balneário Camboriú, Itapema ou Porto Belo!",
-    "button": "Falar com Guitierry Agora"
+    "button": "Falar com Guitierry Agora",
+    "stats": {
+      "supportLabel": "Suporte",
+      "freeLabel": "Gratuito",
+      "yearsLabel": "Anos",
+      "salesLabel": "Vendas"
+    }
   },
   "footer": {
     "rights": "Guitierry Mariano - Corretor de Imóveis. Todos os direitos reservados.",
