@@ -6,10 +6,15 @@ const { t, tm } = useI18n()
 
 const openIndex = ref<number | null>(null)
 
-const faqItems = computed(() => {
+interface FaqItem {
+  question: string
+  answer: string
+}
+
+const faqItems = computed<FaqItem[]>(() => {
   const items = tm('faq.items')
   console.log('FAQ Items:', items)
-  return items as any[]
+  return items as FaqItem[]
 })
 
 const toggleFaq = (index: number) => {
