@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Your Real Estate Investment on Santa Catarina Coast",
+    "subtitle": "Specialist in real estate investments and luxury properties in Balneário Camboriú, Itapema and Porto Belo. I turn your investment into profitable reality.",
+    "cta": "Invest Now",
+    "ctaSecondary": "Talk to Guitierry"
+  },
+  "about": {
+    "title": "Guitierry Mariano",
+    "subtitle": "Your trusted partner in coastal real estate investments",
+    "description": "I'm Guitierry Mariano, a real estate broker specialized in real estate investments and luxury properties on the Santa Catarina coast. With deep knowledge of the Balneário Camboriú, Itapema and Porto Belo market, I offer precise market analysis and high-return investment opportunities. My mission is to maximize your profits and ensure safe investments in the coastal real estate market.",
+    "stats": {
+      "experience": "10+",
+      "experienceLabel": "Years of Experience",
+      "properties": "US$ 15M+",
+      "propertiesLabel": "In Closed Deals",
+      "clients": "98%",
+      "clientsLabel": "Success Rate"
+    }
+  },
+  "services": {
+    "title": "Specialized Services",
+    "subtitle": "Complete solutions for your real estate investments on Santa Catarina coast",
+    "items": {
+      "buying": {
+        "title": "Strategic Investment",
+        "description": "I identify the best investment opportunities in Balneário Camboriú, Itapema and Porto Belo with ROI analysis and appreciation potential."
+      },
+      "selling": {
+        "title": "Strategic Sale",
+        "description": "Premium marketing and qualified negotiation to sell your property at the best market value with maximum profitability."
+      },
+      "consultation": {
+        "title": "Investment Consulting",
+        "description": "Complete market analysis, feasibility study and strategic planning for your coastal investments."
+      },
+      "evaluation": {
+        "title": "Valuation & Analysis",
+        "description": "Professional valuation with market analysis, appreciation potential and business opportunities."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Successful Investors",
+    "subtitle": "Real stories of investors who multiplied their wealth with my consulting",
+    "stats": {
+      "rating": "4.9/5",
+      "transactions": "in transactions",
+      "investors": "satisfied investors"
+    },
+    "indicators": {
+      "appreciation": "Average Appreciation",
+      "successRate": "Success Rate",
+      "roi": "Average ROI Months",
+      "support": "Dedicated Support"
+    },
+    "badges": {
+      "creci": "CRECI Certified",
+      "topBroker": "Top 1% Brokers",
+      "certified": "Certified Specialist"
+    },
+    "items": [
+      {
+        "name": "Ricardo Almeida",
+        "location": "São Paulo, SP",
+        "text": "Guitierry helped me identify an apartment in Balneário Camboriú that appreciated 35% in just 18 months. Professionalism and deep knowledge of the coastal market!",
+        "rating": 5
+      },
+      {
+        "name": "Fernanda & Carlos Mendes",
+        "location": "Curitiba, PR",
+        "text": "We sold our property in Itapema with 22% profit above expected thanks to Guitierry's marketing strategy. Perfect investment!",
+        "rating": 5
+      },
+      {
+        "name": "Dr. Paulo Henrique Costa",
+        "location": "Florianópolis, SC",
+        "text": "Exceptional consulting! Guitierry analyzed 12 properties until we found the perfect opportunity in Porto Belo. Today I have an asset that generates excellent monthly passive income.",
+        "rating": 5
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "title": "Let's Talk About Your Investment?",
+    "subtitle": "Get in touch and discover the best investment opportunities on the Santa Catarina coast",
+    "whatsapp": {
+      "title": "Talk Directly on WhatsApp",
+      "description": "Personalized service and real-time investment opportunity analysis",
+      "button": "Open WhatsApp",
+      "availability": "Priority service for investors • Fast response guaranteed"
+    },
+    "info": {
+      "phoneTitle": "Phone",
+      "phone": "+55 (47) 98914-1108",
+      "callNow": "Call Now",
+      "emailTitle": "E-mail",
+      "email": "guitierry.mariano@investlitoral.com",
+      "sendEmail": "Send Email",
+      "locationTitle": "Location",
+      "address": "Balneário Camboriú, Itapema and Porto Belo - SC",
+      "viewMap": "View on Map"
+    },
+    "social": {
+      "title": "Follow on Social Media"
+    }
+  },
+  "faq": {
+    "badge": "Frequently Asked Questions",
+    "title": "Questions about Investing in Brazil?",
+    "subtitle": "Answers to the main questions from international investors",
+    "items": [
+      {
+        "question": "Can foreign investors buy property in Brazil?",
+        "answer": "Yes! Foreign investors can buy property in Brazil without restrictions, except in border areas and rural zones that require Congressional approval. I assist with the entire legal process and documentation required for international investors."
+      },
+      {
+        "question": "What documents are required for international investors?",
+        "answer": "You will need a valid passport, Brazilian CPF (tax document), proof of address, and sworn translated documents. I help with obtaining the CPF and all necessary documentation, making the process simple and fast."
+      },
+      {
+        "question": "How does payment work for overseas investors?",
+        "answer": "Payments can be made via international wire transfer, through a Brazilian account, or via foreign exchange contracts. I work with banking institutions specialized in international operations to ensure security and the best exchange rates."
+      },
+      {
+        "question": "Can I get a mortgage as a foreigner?",
+        "answer": "Yes, foreign residents in Brazil can obtain financing. For non-residents, payment is usually in cash, but there are alternatives for direct installment plans with developers. I present the best options according to your profile."
+      },
+      {
+        "question": "What is the average return on investment in Balneário Camboriú?",
+        "answer": "The region shows average appreciation of 8-15% per year and rental yield of 0.5-1% per month. Balneário Camboriú is known as the 'Brazilian Dubai' due to accelerated growth and high-standard developments. I provide detailed ROI analysis for each opportunity."
+      },
+      {
+        "question": "How does taxation work for foreign investors?",
+        "answer": "Foreign investors pay the same taxes as Brazilians: ITBI on purchase (2-3%), annual IPTU (varies by municipality), and capital gains tax on sale (15-22.5%). I work with accountants specialized in international taxation."
+      },
+      {
+        "question": "Do you offer support in other languages?",
+        "answer": "Yes! I provide service in Portuguese, English, and Spanish. All communication and documentation can be conducted in your preferred language to ensure complete understanding of the process."
+      },
+      {
+        "question": "Can I manage my investment remotely?",
+        "answer": "Absolutely! I offer complete remote management service, including rental administration, maintenance, construction monitoring, and periodic reports. You invest with peace of mind from anywhere in the world."
+      }
+    ],
+    "cta": {
+      "title": "Still have questions?",
+      "subtitle": "Contact me for personalized consulting about your investment",
+      "button": "Talk to Specialist"
+    }
+  },
+  "cta": {
+    "ready": "Ready to Invest on Santa Catarina Coast?",
+    "contact": "Let's identify together the best investment opportunity for you in Balneário Camboriú, Itapema or Porto Belo!",
+    "button": "Talk to Guitierry Now"
+  },
+  "footer": {
+    "rights": "Guitierry Mariano - Real Estate Broker. All rights reserved.",
+    "social": "Follow me on social media",
+    "creci": "CRECI/SC"
+  }
+}

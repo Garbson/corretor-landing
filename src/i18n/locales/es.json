@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "services": "Servicios",
+    "testimonials": "Testimonios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Su Inversión Inmobiliaria en la Costa de Santa Catarina",
+    "subtitle": "Especialista en inversiones inmobiliarias y propiedades de lujo en Balneário Camboriú, Itapema y Porto Belo. Transformo su inversión en realidad rentable.",
+    "cta": "Invertir Ahora",
+    "ctaSecondary": "Hablar con Guitierry"
+  },
+  "about": {
+    "title": "Guitierry Mariano",
+    "subtitle": "Su socio de confianza en inversiones inmobiliarias costeras",
+    "description": "Soy Guitierry Mariano, corredor de bienes raíces especializado en inversiones inmobiliarias y propiedades de lujo en la costa de Santa Catarina. Con profundo conocimiento del mercado de Balneário Camboriú, Itapema y Porto Belo, ofrezco análisis de mercado precisos y oportunidades de inversión de alto retorno. Mi misión es maximizar sus ganancias y garantizar inversiones seguras en el mercado inmobiliario costero.",
+    "stats": {
+      "experience": "10+",
+      "experienceLabel": "Años de Experiencia",
+      "properties": "US$ 15M+",
+      "propertiesLabel": "En Negocios Cerrados",
+      "clients": "98%",
+      "clientsLabel": "Tasa de Éxito"
+    }
+  },
+  "services": {
+    "title": "Servicios Especializados",
+    "subtitle": "Soluciones completas para sus inversiones inmobiliarias en la costa de Santa Catarina",
+    "items": {
+      "buying": {
+        "title": "Inversión Estratégica",
+        "description": "Identifico las mejores oportunidades de inversión en Balneário Camboriú, Itapema y Porto Belo con análisis de ROI y potencial de valorización."
+      },
+      "selling": {
+        "title": "Venta Estratégica",
+        "description": "Marketing premium y negociación cualificada para vender su propiedad al mejor valor de mercado con máxima rentabilidad."
+      },
+      "consultation": {
+        "title": "Consultoría de Inversión",
+        "description": "Análisis completo de mercado, estudio de viabilidad y planificación estratégica para sus inversiones costeras."
+      },
+      "evaluation": {
+        "title": "Evaluación y Análisis",
+        "description": "Evaluación profesional con análisis de mercado, potencial de valorización y oportunidades de negocio."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Inversores Exitosos",
+    "subtitle": "Historias reales de inversores que multiplicaron su patrimonio con mi consultoría",
+    "stats": {
+      "rating": "4.9/5",
+      "transactions": "en transacciones",
+      "investors": "inversores satisfechos"
+    },
+    "indicators": {
+      "appreciation": "Valorización Promedio",
+      "successRate": "Tasa de Éxito",
+      "roi": "Meses Promedio ROI",
+      "support": "Soporte Dedicado"
+    },
+    "badges": {
+      "creci": "CRECI Certificado",
+      "topBroker": "Top 1% Corredores",
+      "certified": "Especialista Certificado"
+    },
+    "items": [
+      {
+        "name": "Ricardo Almeida",
+        "location": "São Paulo, SP",
+        "text": "Guitierry me ayudó a identificar un apartamento en Balneário Camboriú que se valorizó 35% en apenas 18 meses. ¡Profesionalismo y conocimiento profundo del mercado costero!",
+        "rating": 5
+      },
+      {
+        "name": "Fernanda y Carlos Mendes",
+        "location": "Curitiba, PR",
+        "text": "Vendimos nuestra propiedad en Itapema con 22% de ganancia por encima de lo esperado gracias a la estrategia de marketing de Guitierry. ¡Inversión perfecta!",
+        "rating": 5
+      },
+      {
+        "name": "Dr. Paulo Henrique Costa",
+        "location": "Florianópolis, SC",
+        "text": "¡Consultoría excepcional! Guitierry analizó 12 propiedades hasta que encontramos la oportunidad perfecta en Porto Belo. Hoy tengo un activo que genera excelentes ingresos pasivos mensuales.",
+        "rating": 5
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Póngase en Contacto",
+    "title": "¿Hablemos sobre Su Inversión?",
+    "subtitle": "Póngase en contacto y descubra las mejores oportunidades de inversión en la costa de Santa Catarina",
+    "whatsapp": {
+      "title": "Hable Directamente por WhatsApp",
+      "description": "Atención personalizada y análisis de oportunidades de inversión en tiempo real",
+      "button": "Abrir WhatsApp",
+      "availability": "Atención prioritaria para inversores • Respuesta rápida garantizada"
+    },
+    "info": {
+      "phoneTitle": "Teléfono",
+      "phone": "+55 (47) 98914-1108",
+      "callNow": "Llamar Ahora",
+      "emailTitle": "E-mail",
+      "email": "guitierry.mariano@investlitoral.com",
+      "sendEmail": "Enviar E-mail",
+      "locationTitle": "Ubicación",
+      "address": "Balneário Camboriú, Itapema y Porto Belo - SC",
+      "viewMap": "Ver en el Mapa"
+    },
+    "social": {
+      "title": "Siga en las Redes Sociales"
+    }
+  },
+  "faq": {
+    "badge": "Preguntas Frecuentes",
+    "title": "¿Dudas sobre Invertir en Brasil?",
+    "subtitle": "Respuestas a las principales preguntas de inversores internacionales",
+    "items": [
+      {
+        "question": "¿Los inversores extranjeros pueden comprar propiedades en Brasil?",
+        "answer": "¡Sí! Los inversores extranjeros pueden comprar propiedades en Brasil sin restricciones, excepto en áreas fronterizas y zonas rurales que requieren aprobación del Congreso. Auxilio en todo el proceso legal y documentación necesaria para inversores internacionales."
+      },
+      {
+        "question": "¿Qué documentos se necesitan para inversores internacionales?",
+        "answer": "Necesitará pasaporte válido, CPF brasileño (documento fiscal), comprobante de domicilio y documentos traducidos por traductor jurado. Ayudo en la obtención del CPF y toda la documentación necesaria, haciendo el proceso simple y rápido."
+      },
+      {
+        "question": "¿Cómo funciona el pago para inversores del extranjero?",
+        "answer": "Los pagos se pueden realizar por transferencia bancaria internacional, a través de cuenta en Brasil o mediante contratos de cambio. Trabajo con instituciones bancarias especializadas en operaciones internacionales para garantizar seguridad y los mejores tipos de cambio."
+      },
+      {
+        "question": "¿Puedo obtener financiamiento inmobiliario siendo extranjero?",
+        "answer": "Sí, los extranjeros residentes en Brasil pueden obtener financiamiento. Para no residentes, el pago generalmente es al contado, pero existen alternativas de pago a plazos directo con constructoras. Presento las mejores opciones según su perfil."
+      },
+      {
+        "question": "¿Cuál es la rentabilidad promedio de las inversiones en Balneário Camboriú?",
+        "answer": "La región presenta valorización promedio de 8-15% al año y rentabilidad de alquiler de 0.5-1% al mes. Balneário Camboriú es conocida como el 'Dubái brasileño' debido al crecimiento acelerado y alto estándar de emprendimientos. Proporciono análisis detallado de ROI para cada oportunidad."
+      },
+      {
+        "question": "¿Cómo funciona la tributación para inversores extranjeros?",
+        "answer": "Los inversores extranjeros pagan los mismos impuestos que los brasileños: ITBI en la compra (2-3%), IPTU anual (varía por municipio) e impuesto sobre la renta sobre ganancia de capital en la venta (15-22.5%). Trabajo con contadores especializados en tributación internacional."
+      },
+      {
+        "question": "¿Ofrece soporte en otros idiomas?",
+        "answer": "¡Sí! Ofrezco atención en portugués, inglés y español. Toda la comunicación y documentación puede realizarse en el idioma de su preferencia para garantizar la comprensión total del proceso."
+      },
+      {
+        "question": "¿Puedo gestionar mi inversión a distancia?",
+        "answer": "¡Absolutamente! Ofrezco servicio completo de gestión remota, incluyendo administración de alquiler, mantenimiento, seguimiento de obras e informes periódicos. Invierte con tranquilidad desde cualquier lugar del mundo."
+      }
+    ],
+    "cta": {
+      "title": "¿Todavía tienes dudas?",
+      "subtitle": "Contacta para una consultoría personalizada sobre tu inversión",
+      "button": "Hablar con Especialista"
+    }
+  },
+  "cta": {
+    "ready": "¿Listo para Invertir en la Costa de Santa Catarina?",
+    "contact": "¡Identifiquemos juntos la mejor oportunidad de inversión para usted en Balneário Camboriú, Itapema o Porto Belo!",
+    "button": "Hablar con Guitierry Ahora"
+  },
+  "footer": {
+    "rights": "Guitierry Mariano - Corredor de Bienes Raíces. Todos los derechos reservados.",
+    "social": "Sígueme en las redes sociales",
+    "creci": "CRECI/SC"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "testimonials": "Depoimentos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Seu Investimento Imobiliário no Litoral Catarinense",
+    "subtitle": "Especialista em investimentos imobiliários e propriedades de alto padrão em Balneário Camboriú, Itapema e Porto Belo. Transformo seu investimento em realidade lucrativa.",
+    "cta": "Investir Agora",
+    "ctaSecondary": "Falar com Guitierry"
+  },
+  "about": {
+    "title": "Guitierry Mariano",
+    "subtitle": "Seu parceiro de confiança em investimentos imobiliários no litoral",
+    "description": "Sou Guitierry Mariano, corretor de imóveis especializado em investimentos imobiliários e propriedades de alto padrão no litoral catarinense. Com profundo conhecimento do mercado de Balneário Camboriú, Itapema e Porto Belo, ofereço análises de mercado precisas e oportunidades de investimento com alto retorno. Minha missão é maximizar seus lucros e garantir investimentos seguros no mercado imobiliário litorâneo.",
+    "stats": {
+      "experience": "10+",
+      "experienceLabel": "Anos de Experiência",
+      "properties": "R$ 50M+",
+      "propertiesLabel": "Em Negócios Fechados",
+      "clients": "98%",
+      "clientsLabel": "Taxa de Sucesso"
+    }
+  },
+  "services": {
+    "title": "Serviços Especializados",
+    "subtitle": "Soluções completas para seus investimentos imobiliários no litoral catarinense",
+    "items": {
+      "buying": {
+        "title": "Investimento Estratégico",
+        "description": "Identifico as melhores oportunidades de investimento em Balneário Camboriú, Itapema e Porto Belo com análise de ROI e potencial de valorização."
+      },
+      "selling": {
+        "title": "Venda Estratégica",
+        "description": "Marketing premium e negociação qualificada para vender seu imóvel pelo melhor valor de mercado com máxima rentabilidade."
+      },
+      "consultation": {
+        "title": "Consultoria de Investimento",
+        "description": "Análise completa de mercado, estudo de viabilidade e planejamento estratégico para seus investimentos no litoral."
+      },
+      "evaluation": {
+        "title": "Avaliação e Análise",
+        "description": "Avaliação profissional com análise de mercado, potencial de valorização e oportunidades de negócio."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Investidores de Sucesso",
+    "subtitle": "Histórias reais de investidores que multiplicaram seu patrimônio com minha consultoria",
+    "stats": {
+      "rating": "4.9/5",
+      "transactions": "em transações",
+      "investors": "investidores satisfeitos"
+    },
+    "indicators": {
+      "appreciation": "Valorização Média",
+      "successRate": "Taxa de Sucesso",
+      "roi": "Meses Médio ROI",
+      "support": "Suporte Dedicado"
+    },
+    "badges": {
+      "creci": "CRECI Certificado",
+      "topBroker": "Top 1% Corretores",
+      "certified": "Especialista Certificado"
+    },
+    "items": [
+      {
+        "name": "Ricardo Almeida",
+        "location": "São Paulo, SP",
+        "text": "Guitierry me ajudou a identificar um apartamento em Balneário Camboriú que valorizou 35% em apenas 18 meses. Profissionalismo e conhecimento profundo do mercado litorâneo!",
+        "rating": 5
+      },
+      {
+        "name": "Fernanda e Carlos Mendes",
+        "location": "Curitiba, PR",
+        "text": "Vendemos nosso imóvel em Itapema com lucro 22% acima do esperado graças à estratégia de marketing do Guitierry. Investimento certeiro!",
+        "rating": 5
+      },
+      {
+        "name": "Dr. Paulo Henrique Costa",
+        "location": "Florianópolis, SC",
+        "text": "Consultoria excepcional! Guitierry analisou 12 imóveis até encontrarmos a oportunidade perfeita em Porto Belo. Hoje tenho um ativo que gera renda passiva mensal excelente.",
+        "rating": 5
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Entre em Contato",
+    "title": "Vamos Conversar sobre Seu Investimento?",
+    "subtitle": "Entre em contato e descubra as melhores oportunidades de investimento no litoral catarinense",
+    "whatsapp": {
+      "title": "Fale Direto no WhatsApp",
+      "description": "Atendimento personalizado e análise de oportunidades de investimento em tempo real",
+      "button": "Abrir WhatsApp",
+      "availability": "Atendimento prioritário para investidores • Resposta rápida garantida"
+    },
+    "info": {
+      "phoneTitle": "Telefone",
+      "phone": "+55 (47) 98914-1108",
+      "callNow": "Ligar Agora",
+      "emailTitle": "E-mail",
+      "email": "guitierry.mariano@investlitoral.com",
+      "sendEmail": "Enviar E-mail",
+      "locationTitle": "Localização",
+      "address": "Balneário Camboriú, Itapema e Porto Belo - SC",
+      "viewMap": "Ver no Mapa"
+    },
+    "social": {
+      "title": "Siga nas Redes Sociais"
+    }
+  },
+  "faq": {
+    "badge": "Perguntas Frequentes",
+    "title": "Dúvidas sobre Investir no Brasil?",
+    "subtitle": "Respostas para as principais perguntas de investidores internacionais",
+    "items": [
+      {
+        "question": "Investidores estrangeiros podem comprar imóveis no Brasil?",
+        "answer": "Sim! Investidores estrangeiros podem comprar imóveis no Brasil sem restrições, exceto em áreas de fronteira e zonas rurais que necessitam aprovação do Congresso. Auxilio em todo o processo legal e documentação necessária para investidores internacionais."
+      },
+      {
+        "question": "Quais documentos são necessários para investidores internacionais?",
+        "answer": "Você precisará de passaporte válido, CPF brasileiro (documento fiscal), comprovante de endereço e documentos traduzidos juramentados. Eu auxilio na obtenção do CPF e em toda a documentação necessária, tornando o processo simples e rápido."
+      },
+      {
+        "question": "Como funciona o pagamento para investidores do exterior?",
+        "answer": "Pagamentos podem ser feitos por transferência bancária internacional, através de conta no Brasil ou por meio de contratos de câmbio. Trabalho com instituições bancárias especializadas em operações internacionais para garantir segurança e as melhores taxas de câmbio."
+      },
+      {
+        "question": "Posso obter financiamento imobiliário sendo estrangeiro?",
+        "answer": "Sim, estrangeiros residentes no Brasil podem obter financiamento. Para não-residentes, o pagamento geralmente é à vista, mas existem alternativas de parcelamento direto com construtoras. Apresento as melhores opções de acordo com seu perfil."
+      },
+      {
+        "question": "Qual a rentabilidade média dos investimentos em Balneário Camboriú?",
+        "answer": "A região apresenta valorização média de 8-15% ao ano e rentabilidade de aluguel de 0.5-1% ao mês. Balneário Camboriú é conhecida como a 'Dubai brasileira' devido ao crescimento acelerado e alto padrão de empreendimentos. Forneço análise detalhada de ROI para cada oportunidade."
+      },
+      {
+        "question": "Como funciona a tributação para investidores estrangeiros?",
+        "answer": "Investidores estrangeiros pagam os mesmos impostos que brasileiros: ITBI na compra (2-3%), IPTU anual (varia por município) e imposto de renda sobre ganho de capital na venda (15-22.5%). Trabalho com contadores especializados em tributação internacional."
+      },
+      {
+        "question": "Você oferece suporte em outros idiomas?",
+        "answer": "Sim! Ofereço atendimento em português, inglês e espanhol. Toda a comunicação e documentação pode ser conduzida no idioma de sua preferência para garantir total compreensão do processo."
+      },
+      {
+        "question": "Posso gerenciar meu investimento à distância?",
+        "answer": "Absolutamente! Oferece serviço completo de gestão remota, incluindo administração de aluguel, manutenção, acompanhamento de obras e relatórios periódicos. Você investe com tranquilidade de qualquer lugar do mundo."
+      }
+    ],
+    "cta": {
+      "title": "Ainda tem dúvidas?",
+      "subtitle": "Entre em contato para uma consultoria personalizada sobre seu investimento",
+      "button": "Falar com Especialista"
+    }
+  },
+  "cta": {
+    "ready": "Pronto para Investir no Litoral Catarinense?",
+    "contact": "Vamos juntos identificar a melhor oportunidade de investimento para você em Balneário Camboriú, Itapema ou Porto Belo!",
+    "button": "Falar com Guitierry Agora"
+  },
+  "footer": {
+    "rights": "Guitierry Mariano - Corretor de Imóveis. Todos os direitos reservados.",
+    "social": "Siga-me nas redes sociais",
+    "creci": "CRECI/SC"
+  }
+}
