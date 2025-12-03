@@ -14,7 +14,7 @@ const scrollToSection = (sectionId: string) => {
 </script>
 
 <template>
-  <footer
+  <div
     class="bg-gradient-to-br from-gray-900 via-primary-950 to-gray-900 text-white py-16 relative overflow-hidden"
   >
     <!-- Background decoration -->
@@ -204,5 +204,5 @@ const scrollToSection = (sectionId: string) => {
         </div>
       </div>
     </div>
-  </footer>
+  </div>
 </template>
