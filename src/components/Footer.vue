@@ -1,9 +1,28 @@
 <script setup lang="ts">
-import { useI18n } from "vue-i18n";
-
-const { t } = useI18n();
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+import pt from '../i18n/locales/pt.json'
+import en from '../i18n/locales/en.json'
+import es from '../i18n/locales/es.json'
 
 const currentYear = new Date().getFullYear();
+const { locale } = useI18n()
+
+// Import translations directly to avoid runtime compilation errors
+const translations: any = {
+  pt,
+  en,
+  es
+}
+
+const t = (key: string) => {
+  const keys = key.split('.')
+  let value: any = translations[locale.value]
+  for (const k of keys) {
+    value = value?.[k]
+  }
+  return value || key
+}
 
 const scrollToSection = (sectionId: string) => {
   const element = document.getElementById(sectionId);
@@ -14,7 +33,7 @@ const scrollToSection = (sectionId: string) => {
 </script>
 
 <template>
-  <div
+  <footer
     class="bg-gradient-to-br from-gray-900 via-primary-950 to-gray-900 text-white py-16 relative overflow-hidden"
   >
     <!-- Background decoration -->
@@ -39,7 +58,7 @@ const scrollToSection = (sectionId: string) => {
             <span class="text-white"> Mariano</span>
           </div>
           <p class="text-gray-300 mb-6 leading-relaxed">
-            {{ t("about.subtitle") }}
+            {{ t('about.subtitle') }}
           </p>
           <div class="flex space-x-4">
             <a
@@ -82,32 +101,32 @@ const scrollToSection = (sectionId: string) => {
         <!-- Quick Links -->
         <div>
           <h3 class="text-lg font-semibold mb-4 text-white">
-            {{ t("nav.services") }}
+            {{ t('nav.services') }}
           </h3>
           <div class="space-y-2">
             <button
               @click="scrollToSection('hero')"
               class="block text-gray-300 hover:text-accent-400 transition-colors text-left"
             >
-              {{ t("nav.home") }}
+              {{ t('nav.home') }}
             </button>
             <button
               @click="scrollToSection('about')"
               class="block text-gray-300 hover:text-accent-400 transition-colors text-left"
             >
-              {{ t("nav.about") }}
+              {{ t('nav.about') }}
             </button>
             <button
               @click="scrollToSection('services')"
               class="block text-gray-300 hover:text-accent-400 transition-colors text-left"
             >
-              {{ t("nav.services") }}
+              {{ t('nav.services') }}
             </button>
             <button
               @click="scrollToSection('testimonials')"
               class="block text-gray-300 hover:text-accent-400 transition-colors text-left"
             >
-              {{ t("nav.testimonials") }}
+              {{ t('nav.testimonials') }}
             </button>
             <button
               @click="scrollToSection('faq')"
@@ -121,7 +140,7 @@ const scrollToSection = (sectionId: string) => {
         <!-- Contact -->
         <div>
           <h3 class="text-lg font-semibold mb-4 text-white">
-            {{ t("nav.contact") }}
+            {{ t('nav.contact') }}
           </h3>
           <div class="space-y-3 text-gray-300">
             <div class="flex items-start space-x-3">
@@ -144,7 +163,7 @@ const scrollToSection = (sectionId: string) => {
                   d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                 />
               </svg>
-              <p class="text-sm">{{ t("contact.info.address") }}</p>
+              <p class="text-sm">{{ t('contact.info.address') }}</p>
             </div>
             <div class="flex items-center space-x-3">
               <svg
@@ -163,7 +182,7 @@ const scrollToSection = (sectionId: string) => {
               <a
                 href="tel:+5547989141108"
                 class="text-sm hover:text-accent-400 transition-colors"
-                >{{ t("contact.info.phone") }}</a
+                >{{ t('contact.info.phone') }}</a
               >
             </div>
             <div class="flex items-center space-x-3">
@@ -183,7 +202,7 @@ const scrollToSection = (sectionId: string) => {
               <a
                 href="mailto:guitierry.mariano@investlitoral.com"
                 class="text-sm hover:text-accent-400 transition-colors"
-                >{{ t("contact.info.email") }}</a
+                >{{ t('contact.info.email') }}</a
               >
             </div>
           </div>
@@ -196,13 +215,13 @@ const scrollToSection = (sectionId: string) => {
           class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0"
         >
           <p class="text-gray-400 text-sm text-center md:text-left">
-            &copy; {{ currentYear }} {{ t("footer.rights") }}
+            &copy; {{ currentYear }} {{ t('footer.rights') }}
           </p>
           <div class="flex items-center space-x-4 text-gray-400 text-sm">
-            <span>{{ t("footer.creci") }}</span>
+            <span>{{ t('footer.creci') }}</span>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </footer>
 </template>

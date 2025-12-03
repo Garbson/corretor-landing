@@ -2,6 +2,7 @@
 import { onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import AppNavbar from './components/AppNavbar.vue'
+import Footer from './components/Footer.vue'
 
 const { locale } = useI18n()
 
@@ -49,7 +50,7 @@ onMounted(() => {
     <main class="pt-20">
       <RouterView />
     </main>
-    <AppFooter />
+    <Footer />
   </div>
 </template>
 

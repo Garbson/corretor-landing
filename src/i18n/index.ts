@@ -14,7 +14,11 @@ const i18n = createI18n({
   locale: 'pt',
   fallbackLocale: 'en',
   messages,
-  globalInjection: true
+  globalInjection: true,
+  missingWarn: false,
+  fallbackWarn: false,
+  warnHtmlMessage: false,
+  warnHtmlInMessage: 'off'
 })
 
 export default i18n
