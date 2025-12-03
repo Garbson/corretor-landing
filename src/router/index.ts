@@ -18,6 +18,14 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    // Always scroll to top when navigating to a new page
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0, behavior: 'instant' }
+    }
+  },
 })
 
 export default router
