@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const { t, tm } = useI18n()
@@ -12,7 +12,7 @@ interface FaqItem {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const faqItems: any = tm('faq.items')
+const faqItems = computed(() => tm('faq.items') as FaqItem[])
 
 const toggleFaq = (index: number) => {
   openIndex.value = openIndex.value === index ? null : index
