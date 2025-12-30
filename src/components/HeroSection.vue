@@ -68,7 +68,7 @@ const openWhatsApp = () => {
       <div class="mx-auto">
         <!-- Hero Badge -->
         <div class="flex justify-center h-[250px] w-full">
-          <img class="h-full" src="/img/logoGW.svg" alt="" />
+          <img class="h-full" src="/img/LogoGW.svg" alt="" />
         </div>
 
         <!-- Hero Title -->
