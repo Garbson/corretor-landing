@@ -116,7 +116,7 @@ const renderStars = (rating: number) => {
         </div>
 
         <!-- Indicator 2 -->
-        <div class="bg-gradient-to-br from-accent-600 to-accent-950 rounded-2xl p-6 text-white text-center transform hover:scale-105 transition-all duration-300">
+        <div class="bg-gradient-to-br from-primary-700 to-primary-950 rounded-2xl p-6 text-white text-center transform hover:scale-105 transition-all duration-300">
           <div class="text-4xl font-bold mb-2">98%</div>
           <div class="text-accent-100 text-sm font-medium">{{ t('testimonials.indicators.successRate') }}</div>
         </div>

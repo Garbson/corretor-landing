@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
-import AppNavbar from './components/AppNavbar.vue'
 import Footer from './components/Footer.vue'
 
 const { locale } = useI18n()
@@ -46,8 +45,7 @@ onMounted(() => {
 
 <template>
   <div id="app" class="min-h-screen bg-white">
-    <AppNavbar />
-    <main class="pt-20">
+    <main>
       <RouterView />
     </main>
     <Footer />

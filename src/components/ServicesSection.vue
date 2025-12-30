@@ -54,7 +54,7 @@ const scrollToContact = () => {
 
         <!-- Service 2: Selling -->
         <div class="group bg-gradient-to-br from-white to-gray-50 rounded-3xl p-8 border-2 border-gray-100 hover:border-accent-200 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 animate-on-scroll flex flex-col">
-          <div class="bg-gradient-to-br from-accent-600 to-accent-950 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg">
+          <div class="bg-gradient-to-br from-primary-700 to-primary-950 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg">
             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
             </svg>
@@ -175,7 +175,7 @@ const scrollToContact = () => {
 
         <!-- CTA Button -->
         <div class="text-center mt-12">
-          <button @click="scrollToContact" class="bg-gradient-to-r from-accent-600 to-accent-950 text-white px-10 py-5 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:shadow-accent-500/30 transform hover:scale-105 transition-all duration-300">
+          <button @click="scrollToContact" class="bg-gradient-to-r from-primary-700 to-primary-950 text-white px-10 py-5 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:shadow-primary-700/30 transform hover:scale-105 transition-all duration-300">
             {{ t('services.process.cta') }}
           </button>
         </div>
