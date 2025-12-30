@@ -38,7 +38,10 @@ const openWhatsApp = () => {
       loop
       class="absolute inset-0 w-full h-full object-cover"
     >
-      <source src="/img/pt.MOV" type="video/mp4" />
+      <source
+        src="https://res.cloudinary.com/dvuwndt7x/video/upload/v1767096322/gut_hwhh2d.mov"
+        type="video/mp4"
+      />
     </video>
 
     <!-- Video Overlay Shadow -->
