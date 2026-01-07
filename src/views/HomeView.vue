@@ -1,21 +1,39 @@
 <script setup lang="ts">
+import { ref, onMounted } from 'vue'
 import AboutSection from '../components/AboutSection.vue'
+import AboutSectionMobile from '../components/AboutSectionMobile.vue'
 import ContactSection from '../components/ContactSection.vue'
-import CtaSection from '../components/CtaSection.vue'
+import ExpertSection from '../components/ExpertSection.vue'
 import FaqSection from '../components/FaqSection.vue'
 import HeroSection from '../components/HeroSection.vue'
-import ServicesSection from '../components/ServicesSection.vue'
+import InvestmentSection from '../components/InvestmentSection.vue'
+import PropertyGallerySection from '../components/PropertyGallerySection.vue'
 import TestimonialsSection from '../components/TestimonialsSection.vue'
+import TransformationSection from '../components/TransformationSection.vue'
+
+const isMobile = ref(false)
+
+const checkMobile = () => {
+  isMobile.value = window.innerWidth < 1024 // lg breakpoint
+}
+
+onMounted(() => {
+  checkMobile()
+  window.addEventListener('resize', checkMobile)
+})
 </script>
 
 <template>
   <div>
     <HeroSection />
-    <AboutSection />
-    <ServicesSection />
+    <AboutSection v-if="!isMobile" />
+    <AboutSectionMobile v-if="isMobile" />
+    <InvestmentSection />
+    <TransformationSection />
+    <ExpertSection />
+    <PropertyGallerySection />
     <TestimonialsSection />
     <FaqSection />
-    <CtaSection />
     <ContactSection />
   </div>
 </template>

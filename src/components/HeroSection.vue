@@ -25,7 +25,7 @@ const openWhatsApp = () => {
 <template>
   <section
     id="hero"
-    class="relative min-h-screen flex items-center justify-center overflow-hidden py-20"
+    class="relative min-h-screen flex items-center justify-center overflow-hidden py-16 sm:py-20"
   >
     <!-- Navbar incluído na Hero Section -->
     <AppNavbar />
@@ -50,16 +50,16 @@ const openWhatsApp = () => {
     <!-- Overlay para profundidade -->
     <div class="absolute inset-0 bg-black/20"></div>
 
-    <!-- Animated Shapes com gradientes -->
+    <!-- Animated Shapes com gradientes - otimizado para mobile -->
     <div class="absolute inset-0 overflow-hidden">
       <div
-        class="absolute top-20 left-10 w-72 h-72 bg-gradient-to-br from-primary-400/30 to-accent-400/30 rounded-full blur-3xl animate-bounce-slow"
+        class="absolute top-10 sm:top-20 left-4 sm:left-10 w-48 sm:w-72 h-48 sm:h-72 bg-gradient-to-br from-primary-400/30 to-accent-400/30 rounded-full blur-3xl animate-bounce-slow"
       ></div>
       <div
-        class="absolute top-40 right-20 w-96 h-96 bg-gradient-to-br from-accent-400/20 to-primary-400/20 rounded-full blur-3xl animate-bounce-slow delay-1000"
+        class="absolute top-20 sm:top-40 right-4 sm:right-20 w-64 sm:w-96 h-64 sm:h-96 bg-gradient-to-br from-accent-400/20 to-primary-400/20 rounded-full blur-3xl animate-bounce-slow delay-1000"
       ></div>
       <div
-        class="absolute bottom-32 left-1/4 w-64 h-64 bg-gradient-to-br from-primary-500/25 to-accent-500/25 rounded-full blur-3xl animate-bounce-slow delay-500"
+        class="absolute bottom-16 sm:bottom-32 left-1/4 w-40 sm:w-64 h-40 sm:h-64 bg-gradient-to-br from-primary-500/25 to-accent-500/25 rounded-full blur-3xl animate-bounce-slow delay-500"
       ></div>
     </div>
 

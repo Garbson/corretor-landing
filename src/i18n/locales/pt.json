@@ -44,6 +44,138 @@
       "clientsLabel": "Taxa de Sucesso"
     }
   },
+  "investment": {
+    "title": "Investir no Litoral Catarinense é unir",
+    "subtitle": "Três pilares fundamentais que fazem da região o destino ideal para seus investimentos imobiliários",
+    "cards": {
+      "leisure": {
+        "title": "LAZER",
+        "description": "Região com qualidade de vida à beira-mar, praias paradisíacas e infraestrutura completa"
+      },
+      "safety": {
+        "title": "SEGURANÇA",
+        "description": "Uma das regiões mais seguras do Brasil para investir e viver"
+      },
+      "income": {
+        "title": "RENDIMENTO",
+        "description": "Seu patrimônio valorizando consistentemente mês a mês"
+      }
+    }
+  },
+  "transformation": {
+    "title": "Transformação do Litoral Catarinense",
+    "subtitle": "Acompanhe o desenvolvimento acelerado da região e as oportunidades únicas de investimento que surgem a cada dia",
+    "items": {
+      "balneario": {
+        "title": "Balneário Camboriú",
+        "description": "O maior centro de desenvolvimento imobiliário do sul do Brasil"
+      },
+      "itapema": {
+        "title": "Itapema em Expansão",
+        "description": "Crescimento sustentável com foco em qualidade de vida"
+      },
+      "portobelo": {
+        "title": "Porto Belo Histórico",
+        "description": "Tradição açoriana com infraestrutura moderna"
+      },
+      "projects": {
+        "title": "Novos Empreendimentos",
+        "description": "Projetos inovadores transformando o skyline da região"
+      },
+      "tourism": {
+        "title": "Infraestrutura Turística",
+        "description": "Investimentos em hotelaria e entretenimento de classe mundial"
+      },
+      "aerial": {
+        "title": "Vista Panorâmica",
+        "description": "A beleza natural que valoriza cada investimento"
+      }
+    }
+  },
+  "expert": {
+    "name": "Guitierry Mariano",
+    "subtitle": "Especialista em Investimentos Imobiliários no Litoral Catarinense",
+    "description": "Especialista em investimentos imobiliários no litoral catarinense. Atendo investidores nacionais e internacionais em Balneário Camboriú, Itapema e Porto Belo.",
+    "achievements": {
+      "item1": "Mais de R$ 50 milhões em vendas",
+      "item2": "200+ investidores atendidos",
+      "item3": "98% de taxa de sucesso"
+    },
+    "metrics": {
+      "sales": "R$ 50M+",
+      "salesLabel": "Em vendas realizadas",
+      "clients": "200+",
+      "clientsLabel": "Investidores atendidos",
+      "experience": "10+",
+      "experienceLabel": "Anos de experiência",
+      "regions": "3",
+      "regionsLabel": "Cidades especializadas"
+    }
+  },
+  "gallery": {
+    "title": "Portfólio de Imóveis",
+    "subtitle": "Conheça alguns dos imóveis exclusivos que comercializo no litoral catarinense",
+    "properties": {
+      "property1": {
+        "type": "Apartamento",
+        "title": "Edifício Oceanic Tower",
+        "location": "Balneário Camboriú - Centro",
+        "area": "120m²",
+        "rooms": "3 quartos",
+        "price": "R$ 1.200.000",
+        "downPayment": "Entrada: R$ 240.000"
+      },
+      "property2": {
+        "type": "Casa",
+        "title": "Casa Beira-Mar Premium",
+        "location": "Itapema - Meia Praia",
+        "area": "250m²",
+        "rooms": "4 quartos",
+        "price": "R$ 1.800.000",
+        "downPayment": "Entrada: R$ 360.000"
+      },
+      "property3": {
+        "type": "Cobertura",
+        "title": "Cobertura Vista Panorâmica",
+        "location": "Porto Belo - Centro",
+        "area": "180m²",
+        "rooms": "3 suítes",
+        "price": "R$ 2.500.000",
+        "downPayment": "Entrada: R$ 500.000"
+      },
+      "property4": {
+        "type": "Apartamento",
+        "title": "Residencial Atlântico",
+        "location": "Balneário Camboriú - Pioneiros",
+        "area": "95m²",
+        "rooms": "2 quartos",
+        "price": "R$ 850.000",
+        "downPayment": "Entrada: R$ 170.000"
+      },
+      "property5": {
+        "type": "Casa",
+        "title": "Villa Mediterrânea",
+        "location": "Itapema - Canto da Praia",
+        "area": "300m²",
+        "rooms": "5 quartos",
+        "price": "R$ 3.200.000",
+        "downPayment": "Entrada: R$ 640.000"
+      },
+      "property6": {
+        "type": "Loft",
+        "title": "Loft Design Moderno",
+        "location": "Balneário Camboriú - Barra Sul",
+        "area": "80m²",
+        "rooms": "1 suíte",
+        "price": "R$ 650.000",
+        "downPayment": "Entrada: R$ 130.000"
+      }
+    },
+    "cta": {
+      "text": "Interessado em conhecer mais imóveis ou agendar uma visita?",
+      "button": "Ver Mais Imóveis"
+    }
+  },
   "services": {
     "badge": "Nossos Serviços",
     "title": "Serviços Especializados",

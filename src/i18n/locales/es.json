@@ -44,6 +44,138 @@
       "clientsLabel": "Tasa de Éxito"
     }
   },
+  "investment": {
+    "title": "Invertir en la Costa de Santa Catarina es unir",
+    "subtitle": "Tres pilares fundamentales que hacen de la región el destino ideal para sus inversiones inmobiliarias",
+    "cards": {
+      "leisure": {
+        "title": "OCIO",
+        "description": "Región con calidad de vida junto al mar, playas paradisíacas e infraestructura completa"
+      },
+      "safety": {
+        "title": "SEGURIDAD",
+        "description": "Una de las regiones más seguras de Brasil para invertir y vivir"
+      },
+      "income": {
+        "title": "RENDIMIENTO",
+        "description": "Su patrimonio valorizándose consistentemente mes a mes"
+      }
+    }
+  },
+  "transformation": {
+    "title": "Transformación de la Costa de Santa Catarina",
+    "subtitle": "Siga el desarrollo acelerado de la región y las oportunidades únicas de inversión que surgen cada día",
+    "items": {
+      "balneario": {
+        "title": "Balneário Camboriú",
+        "description": "El mayor centro de desarrollo inmobiliario del sur de Brasil"
+      },
+      "itapema": {
+        "title": "Itapema en Expansión",
+        "description": "Crecimiento sostenible enfocado en calidad de vida"
+      },
+      "portobelo": {
+        "title": "Porto Belo Histórico",
+        "description": "Tradición azoreña con infraestructura moderna"
+      },
+      "projects": {
+        "title": "Nuevos Emprendimientos",
+        "description": "Proyectos innovadores transformando el skyline de la región"
+      },
+      "tourism": {
+        "title": "Infraestructura Turística",
+        "description": "Inversiones en hotelería y entretenimiento de clase mundial"
+      },
+      "aerial": {
+        "title": "Vista Panorámica",
+        "description": "La belleza natural que valoriza cada inversión"
+      }
+    }
+  },
+  "expert": {
+    "name": "Guitierry Mariano",
+    "subtitle": "Especialista en Inversiones Inmobiliarias en la Costa de Santa Catarina",
+    "description": "Especialista en inversiones inmobiliarias en la costa de Santa Catarina. Atiendo inversores nacionales e internacionales en Balneário Camboriú, Itapema y Porto Belo.",
+    "achievements": {
+      "item1": "Más de US$ 15 millones en ventas",
+      "item2": "200+ inversores atendidos",
+      "item3": "98% de tasa de éxito"
+    },
+    "metrics": {
+      "sales": "US$ 15M+",
+      "salesLabel": "En ventas realizadas",
+      "clients": "200+",
+      "clientsLabel": "Inversores atendidos",
+      "experience": "10+",
+      "experienceLabel": "Años de experiencia",
+      "regions": "3",
+      "regionsLabel": "Ciudades especializadas"
+    }
+  },
+  "gallery": {
+    "title": "Portafolio de Propiedades",
+    "subtitle": "Descubra algunas de las propiedades exclusivas que comercializo en la costa de Santa Catarina",
+    "properties": {
+      "property1": {
+        "type": "Apartamento",
+        "title": "Edificio Oceanic Tower",
+        "location": "Balneário Camboriú - Centro",
+        "area": "120m²",
+        "rooms": "3 habitaciones",
+        "price": "US$ 240.000",
+        "downPayment": "Entrada: US$ 48.000"
+      },
+      "property2": {
+        "type": "Casa",
+        "title": "Casa Frente al Mar Premium",
+        "location": "Itapema - Meia Praia",
+        "area": "250m²",
+        "rooms": "4 habitaciones",
+        "price": "US$ 360.000",
+        "downPayment": "Entrada: US$ 72.000"
+      },
+      "property3": {
+        "type": "Ático",
+        "title": "Ático Vista Panorámica",
+        "location": "Porto Belo - Centro",
+        "area": "180m²",
+        "rooms": "3 suites",
+        "price": "US$ 500.000",
+        "downPayment": "Entrada: US$ 100.000"
+      },
+      "property4": {
+        "type": "Apartamento",
+        "title": "Residencial Atlántico",
+        "location": "Balneário Camboriú - Pioneiros",
+        "area": "95m²",
+        "rooms": "2 habitaciones",
+        "price": "US$ 170.000",
+        "downPayment": "Entrada: US$ 34.000"
+      },
+      "property5": {
+        "type": "Casa",
+        "title": "Villa Mediterránea",
+        "location": "Itapema - Canto da Praia",
+        "area": "300m²",
+        "rooms": "5 habitaciones",
+        "price": "US$ 640.000",
+        "downPayment": "Entrada: US$ 128.000"
+      },
+      "property6": {
+        "type": "Loft",
+        "title": "Loft Diseño Moderno",
+        "location": "Balneário Camboriú - Barra Sul",
+        "area": "80m²",
+        "rooms": "1 suite",
+        "price": "US$ 130.000",
+        "downPayment": "Entrada: US$ 26.000"
+      }
+    },
+    "cta": {
+      "text": "¿Interesado en conocer más propiedades o agendar una visita?",
+      "button": "Ver Más Propiedades"
+    }
+  },
   "services": {
     "badge": "Nuestros Servicios",
     "title": "Servicios Especializados",
