@@ -91,9 +91,9 @@ const goToProperty = (index: number) => {
             :delay="300"
           >
             <PropertyCard
-              :property-key="properties[currentPropertyIndex].key"
-              :image="properties[currentPropertyIndex].image"
-              :fallback-image="properties[currentPropertyIndex].fallbackImage"
+              :property-key="properties[currentPropertyIndex]!.key"
+              :image="properties[currentPropertyIndex]!.image"
+              :fallback-image="properties[currentPropertyIndex]!.fallbackImage"
             />
           </div>
 

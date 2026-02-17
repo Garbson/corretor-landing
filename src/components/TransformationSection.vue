@@ -12,7 +12,7 @@ const currentIndex = ref(0)
 
 const currentItem = computed(() => {
   const keys = Object.keys(transformationItems.value)
-  const key = keys[currentIndex.value]
+  const key = keys[currentIndex.value] as string
   return {
     key,
     ...transformationItems.value[key]
