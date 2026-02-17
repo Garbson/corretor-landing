@@ -8,6 +8,28 @@ const testimonials = computed(() => {
   return tm('testimonials.items') as any[]
 })
 
+const currentIndex = ref(0)
+
+const currentTestimonial = computed(() => {
+  return testimonials.value[currentIndex.value]
+})
+
+const previousTestimonial = () => {
+  if (currentIndex.value > 0) {
+    currentIndex.value--
+  } else {
+    currentIndex.value = testimonials.value.length - 1
+  }
+}
+
+const nextTestimonial = () => {
+  if (currentIndex.value < testimonials.value.length - 1) {
+    currentIndex.value++
+  } else {
+    currentIndex.value = 0
+  }
+}
+
 const renderStars = (rating: number) => {
   return Array.from({ length: 5 }, (_, i) => i < rating)
 }
@@ -54,56 +76,99 @@ const renderStars = (rating: number) => {
         </div>
       </div>
 
-      <!-- Testimonials Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mb-8 sm:mb-12 lg:mb-16">
-        <div
-          v-for="(testimonial, index) in testimonials"
-          :key="index"
-          class="group animate-on-scroll"
+      <!-- Testimonials Carousel -->
+      <div class="relative mb-6 sm:mb-8 lg:mb-10">
+        <!-- Navigation Arrows -->
+        <button
+          @click="previousTestimonial"
+          class="absolute left-0 top-1/2 -translate-y-1/2 z-20 bg-white hover:bg-primary-700 text-primary-700 hover:text-white w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center justify-center -ml-4 sm:-ml-6 lg:-ml-8 group"
         >
-          <div class="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 h-full flex flex-col relative overflow-hidden border-2 border-transparent hover:border-primary-200">
-            <!-- Decorative Corner -->
-            <div class="absolute top-0 right-0 w-16 sm:w-24 h-16 sm:h-24 bg-gradient-to-br from-primary-100 to-accent-100 opacity-50 rounded-bl-full"></div>
+          <svg class="w-5 sm:w-6 lg:w-7 h-5 sm:h-6 lg:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+          </svg>
+        </button>
 
-            <!-- Quote Icon -->
-            <div class="mb-4 sm:mb-6 relative z-10">
-              <div class="bg-gradient-to-br from-primary-600 to-accent-600 w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-xl sm:rounded-2xl flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg">
-                <svg class="w-5 sm:w-6 lg:w-7 h-5 sm:h-6 lg:h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-10zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+        <button
+          @click="nextTestimonial"
+          class="absolute right-0 top-1/2 -translate-y-1/2 z-20 bg-white hover:bg-primary-700 text-primary-700 hover:text-white w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center justify-center -mr-4 sm:-mr-6 lg:-mr-8 group"
+        >
+          <svg class="w-5 sm:w-6 lg:w-7 h-5 sm:h-6 lg:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </button>
+
+        <!-- Central Testimonial Card -->
+        <div class="max-w-4xl mx-auto px-4 sm:px-12 lg:px-16">
+          <div
+            v-if="currentTestimonial"
+            class="group animate-on-scroll"
+            v-motion
+            :initial="{ opacity: 0, scale: 0.9 }"
+            :visible="{ opacity: 1, scale: 1 }"
+            :delay="200"
+          >
+            <div class="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-10 shadow-2xl transition-all duration-500 flex flex-col relative overflow-hidden border-2 border-primary-200 h-[560px] sm:h-[500px] lg:h-[520px]">
+              <!-- Decorative Corner -->
+              <div class="absolute top-0 right-0 w-24 sm:w-32 h-24 sm:h-32 bg-gradient-to-br from-primary-100 to-accent-100 opacity-50 rounded-bl-full"></div>
+
+              <!-- Quote Icon -->
+              <div class="mb-3 sm:mb-4 relative z-10">
+                <div class="bg-gradient-to-br from-primary-600 to-accent-600 w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-xl sm:rounded-2xl flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg">
+                  <svg class="w-5 sm:w-6 lg:w-7 h-5 sm:h-6 lg:h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-10zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                  </svg>
+                </div>
+              </div>
+
+              <!-- Stars -->
+              <div class="flex mb-3 sm:mb-4 justify-center">
+                <svg
+                  v-for="(filled, starIndex) in renderStars(currentTestimonial.rating)"
+                  :key="starIndex"
+                  class="w-4 sm:w-5 lg:w-6 h-4 sm:h-5 lg:h-6"
+                  :class="filled ? 'text-accent-500' : 'text-gray-300'"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                 </svg>
               </div>
-            </div>
 
-            <!-- Stars -->
-            <div class="flex mb-4 sm:mb-6">
-              <svg
-                v-for="(filled, starIndex) in renderStars(testimonial.rating)"
-                :key="starIndex"
-                class="w-4 sm:w-5 lg:w-6 h-4 sm:h-5 lg:h-6"
-                :class="filled ? 'text-accent-500' : 'text-gray-300'"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-              </svg>
-            </div>
-
-            <!-- Testimonial Text - DESTAQUE MAIOR -->
-            <blockquote class="text-gray-800 text-sm sm:text-base lg:text-lg xl:text-xl leading-relaxed mb-6 sm:mb-8 flex-grow font-medium">
-              "{{ testimonial.text }}"
-            </blockquote>
-
-            <!-- Customer Info -->
-            <div class="flex items-center gap-3 sm:gap-4 pt-4 sm:pt-6 border-t-2 border-gray-100">
-              <div class="bg-gradient-to-br from-primary-600 to-accent-600 w-12 sm:w-14 lg:w-16 h-12 sm:h-14 lg:h-16 rounded-full flex items-center justify-center text-white font-bold text-lg sm:text-xl lg:text-2xl shadow-lg">
-                {{ testimonial.name.charAt(0) }}
+              <!-- Testimonial Text - DESTAQUE MAIOR COM ALTURA FIXA -->
+              <div class="flex-grow flex items-center justify-center overflow-y-auto px-2">
+                <blockquote class="text-gray-800 text-base sm:text-lg lg:text-xl leading-relaxed text-center font-medium">
+                  "{{ currentTestimonial.text }}"
+                </blockquote>
               </div>
-              <div>
-                <h4 class="font-bold text-gray-900 text-sm sm:text-base lg:text-lg">{{ testimonial.name }}</h4>
-                <p class="text-xs sm:text-sm text-gray-600 font-medium">{{ testimonial.location }}</p>
+
+              <!-- Customer Info -->
+              <div class="flex items-center justify-center gap-3 sm:gap-4 pt-4 sm:pt-5 border-t-2 border-gray-100 mt-4">
+                <div class="bg-gradient-to-br from-primary-600 to-accent-600 w-12 sm:w-14 lg:w-16 h-12 sm:h-14 lg:h-16 rounded-full flex items-center justify-center text-white font-bold text-lg sm:text-xl lg:text-2xl shadow-lg">
+                  {{ currentTestimonial.name.charAt(0) }}
+                </div>
+                <div class="text-center">
+                  <h4 class="font-bold text-gray-900 text-sm sm:text-base lg:text-lg">{{ currentTestimonial.name }}</h4>
+                  <p class="text-xs sm:text-sm text-gray-600 font-medium">{{ currentTestimonial.location }}</p>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+
+        <!-- Dots Indicator -->
+        <div class="flex justify-center gap-2 mt-4 sm:mt-6">
+          <button
+            v-for="(testimonial, index) in testimonials"
+            :key="index"
+            @click="currentIndex = index"
+            class="transition-all duration-300"
+            :class="[
+              currentIndex === index
+                ? 'w-8 sm:w-10 h-2 sm:h-2.5 bg-primary-700'
+                : 'w-2 sm:w-2.5 h-2 sm:h-2.5 bg-gray-300 hover:bg-gray-400'
+            ]"
+            style="border-radius: 9999px"
+          ></button>
         </div>
       </div>
 

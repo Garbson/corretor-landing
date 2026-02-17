@@ -1,46 +1,46 @@
 <script setup lang="ts">
-import { onMounted } from 'vue'
-import { useI18n } from 'vue-i18n'
-import Footer from './components/Footer.vue'
+import { onMounted } from "vue";
+import { useI18n } from "vue-i18n";
+import Footer from "./components/Footer.vue";
 
-const { locale } = useI18n()
+const { locale } = useI18n();
 
 const initScrollAnimation = () => {
   const observerOptions = {
     threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-  }
+    rootMargin: "0px 0px -50px 0px",
+  };
 
   const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        entry.target.classList.add('visible')
+        entry.target.classList.add("visible");
       }
-    })
-  }, observerOptions)
+    });
+  }, observerOptions);
 
-  const animatedElements = document.querySelectorAll('.animate-on-scroll')
-  animatedElements.forEach(el => {
+  const animatedElements = document.querySelectorAll(".animate-on-scroll");
+  animatedElements.forEach((el) => {
     // Check if element is already in viewport
-    const rect = el.getBoundingClientRect()
-    const isInViewport = rect.top < window.innerHeight && rect.bottom > 0
+    const rect = el.getBoundingClientRect();
+    const isInViewport = rect.top < window.innerHeight && rect.bottom > 0;
 
     if (isInViewport) {
       // If already in viewport, make it visible immediately
-      el.classList.add('visible')
+      el.classList.add("visible");
     } else {
       // Otherwise, observe it
-      observer.observe(el)
+      observer.observe(el);
     }
-  })
-}
+  });
+};
 
 onMounted(() => {
   // Use setTimeout to ensure DOM is fully rendered
   setTimeout(() => {
-    initScrollAnimation()
-  }, 100)
-})
+    initScrollAnimation();
+  }, 100);
+});
 </script>
 
 <template>

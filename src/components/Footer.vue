@@ -221,6 +221,21 @@ const scrollToSection = (sectionId: string) => {
             <span>{{ t('footer.creci') }}</span>
           </div>
         </div>
+
+        <!-- Developer signature -->
+        <div class="mt-6 text-center">
+          <a
+            href="https://wa.me/5568992490198"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-1.5 text-xs text-accent-400 hover:text-accent-300 opacity-60 hover:opacity-100 transition-all duration-300"
+          >
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+            </svg>
+            {{ t('footer.devSignature') }}
+          </a>
+        </div>
       </div>
     </div>
   </footer>

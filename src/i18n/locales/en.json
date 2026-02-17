@@ -9,7 +9,7 @@
   "hero": {
     "badge": "Specialist Broker in Balneário Camboriú, Itapema and Porto Belo",
     "badgeMobile": "Investment Specialist",
-    "title": "Your Real Estate Investment on Santa Catarina Coast",
+    "title": "Your Real Estate Investment Here in Brazil – Santa Catarina Coast, Porto Belo",
     "subtitle": "Specialist in real estate investments and luxury properties in Balneário Camboriú, Itapema and Porto Belo. I turn your investment into profitable reality.",
     "cta": "Consult the best options",
     "ctaSecondary": "Talk to Guitierry",
@@ -22,7 +22,7 @@
   },
   "about": {
     "badge": "Selected and Limited Properties",
-    "title": "The highest appreciation on Santa Catarina coast",
+    "title": "Your Real Estate Investment Here in Brazil – Santa Catarina Coast, Porto Belo",
     "subtitle": "Your trusted partner in coastal real estate investments",
     "description": "Specialist in real estate investments on Santa Catarina coast focused on luxury properties. Precise analysis and exclusive opportunities to maximize your profits.",
     "photoPlaceholder": "Professional Photo",
@@ -60,10 +60,12 @@
         "title": "INCOME",
         "description": "Your assets appreciating consistently month by month"
       }
-    }
+    },
+    "ctaText": "Ready to discover the best investment opportunities?",
+    "ctaButton": "Talk to Specialist"
   },
   "transformation": {
-    "title": "Santa Catarina Coast Transformation",
+    "title": "Your Real Estate Investment Here in Brazil – Santa Catarina Coast, Porto Belo",
     "subtitle": "Follow the accelerated development of the region and the unique investment opportunities that arise every day",
     "items": {
       "balneario": {
@@ -93,16 +95,17 @@
     }
   },
   "expert": {
-    "name": "Guitierry Mariano",
-    "subtitle": "Real Estate Investment Specialist on Santa Catarina Coast",
-    "description": "Real estate investment specialist on Santa Catarina coast. I serve national and international investors in Balneário Camboriú, Itapema and Porto Belo.",
+    "name": "Gutthierry Mariano",
+    "subtitle": "Real Estate Consultant",
+    "title": "One of the Sales Champions of the 3rd Largest Real Estate Company in Brazil",
+    "description": "I work as a real estate investment specialist on the Santa Catarina coast, being one of the sales champions of the third largest real estate company in Brazil, a national reference in performance, volume and commercial structure. I serve national and international investors seeking asset appreciation, predictability and security, with a strategic focus on Balneário Camboriú, Itapema and Porto Belo — regions that rank among the highest real estate appreciation rates in the country, with historical averages between 15% and 25% per year, depending on the project stage.",
     "achievements": {
-      "item1": "Over US$ 15 million in sales",
-      "item2": "200+ investors served",
-      "item3": "98% success rate"
+      "item1": "One of the sales champions",
+      "item2": "3rd largest real estate company in Brazil",
+      "item3": "Appreciation of 15% to 25% per year"
     },
     "metrics": {
-      "sales": "US$ 15M+",
+      "sales": "R$ 50M+",
       "salesLabel": "In completed sales",
       "clients": "200+",
       "clientsLabel": "Investors served",
@@ -110,6 +113,10 @@
       "experienceLabel": "Years of experience",
       "regions": "3",
       "regionsLabel": "Specialized cities"
+    },
+    "buttons": {
+      "invest": "I want to invest now",
+      "consulting": "Request consulting"
     }
   },
   "gallery": {
@@ -118,63 +125,64 @@
     "properties": {
       "property1": {
         "type": "Apartment",
-        "title": "Oceanic Tower Building",
-        "location": "Balneário Camboriú - Downtown",
-        "area": "1,290 sqft",
-        "rooms": "3 bedrooms",
-        "price": "US$ 240,000",
-        "downPayment": "Down payment: US$ 48,000"
+        "title": "Majestic",
+        "location": "Balneário Camboriú",
+        "area": "85 to 130m²",
+        "rooms": "Various options",
+        "price": "R$ 2,800/month",
+        "downPayment": "Down payment from: R$ 98,000"
       },
       "property2": {
-        "type": "House",
-        "title": "Premium Beachfront House",
-        "location": "Itapema - Meia Praia",
-        "area": "2,690 sqft",
-        "rooms": "4 bedrooms",
-        "price": "US$ 360,000",
-        "downPayment": "Down payment: US$ 72,000"
+        "type": "Apartment",
+        "title": "One Bay",
+        "location": "Balneário Camboriú",
+        "area": "88 to 105m²",
+        "rooms": "Various options",
+        "price": "R$ 2,000/month + installment",
+        "downPayment": "Down payment from: R$ 70,000"
       },
       "property3": {
-        "type": "Penthouse",
-        "title": "Panoramic View Penthouse",
-        "location": "Porto Belo - Downtown",
-        "area": "1,940 sqft",
-        "rooms": "3 suites",
-        "price": "US$ 500,000",
-        "downPayment": "Down payment: US$ 100,000"
+        "type": "Apartment",
+        "title": "Conrado",
+        "location": "Balneário Camboriú",
+        "area": "65 to 148m²",
+        "rooms": "Various options",
+        "price": "R$ 2,200/month + installment",
+        "downPayment": "Down payment from: R$ 90,000"
       },
       "property4": {
         "type": "Apartment",
-        "title": "Atlantic Residence",
-        "location": "Balneário Camboriú - Pioneiros",
-        "area": "1,020 sqft",
-        "rooms": "2 bedrooms",
-        "price": "US$ 170,000",
-        "downPayment": "Down payment: US$ 34,000"
+        "title": "Mar Amar",
+        "location": "Balneário Camboriú",
+        "area": "95 to 115m²",
+        "rooms": "Various options",
+        "price": "R$ 2,500/month + installment",
+        "downPayment": "Down payment from: R$ 89,900"
       },
       "property5": {
-        "type": "House",
-        "title": "Mediterranean Villa",
-        "location": "Itapema - Canto da Praia",
-        "area": "3,230 sqft",
-        "rooms": "5 bedrooms",
-        "price": "US$ 640,000",
-        "downPayment": "Down payment: US$ 128,000"
+        "type": "Apartment",
+        "title": "Ocean Tower",
+        "location": "Balneário Camboriú",
+        "area": "85m²",
+        "rooms": "Various options",
+        "price": "R$ 2,690/month + installment",
+        "downPayment": "Down payment from: R$ 83,000"
       },
       "property6": {
-        "type": "Loft",
-        "title": "Modern Design Loft",
-        "location": "Balneário Camboriú - Barra Sul",
-        "area": "860 sqft",
-        "rooms": "1 suite",
-        "price": "US$ 130,000",
-        "downPayment": "Down payment: US$ 26,000"
+        "type": "Apartment",
+        "title": "Palm Beach",
+        "location": "Balneário Camboriú",
+        "area": "85 to 112m²",
+        "rooms": "Various options",
+        "price": "R$ 2,000/month + installment",
+        "downPayment": "Down payment from: R$ 66,500"
       }
     },
     "cta": {
       "text": "Interested in viewing more properties or scheduling a visit?",
       "button": "View More Properties"
-    }
+    },
+    "consultButton": "Consult Property"
   },
   "services": {
     "badge": "Our Services",
@@ -204,6 +212,8 @@
       },
       "cta": "Get Started Now"
     },
+    "whatsappButton": "Talk on WhatsApp",
+    "startButton": "Get Started on WhatsApp",
     "items": {
       "buying": {
         "title": "Strategic Investment",
@@ -224,8 +234,8 @@
     }
   },
   "testimonials": {
-    "title": "Successful Investors",
-    "subtitle": "Real stories of investors who multiplied their wealth with my consulting",
+    "title": "Real Testimonials",
+    "subtitle": "Real testimonials from clients who trusted their investments and housing decisions to Gutthierry Mariano",
     "stats": {
       "rating": "4.9/5",
       "transactions": "in transactions",
@@ -244,21 +254,93 @@
     },
     "items": [
       {
+        "name": "Carlos Henrique",
+        "location": "São Paulo, Brazil",
+        "text": "I've invested in real estate before, but never with such clarity of numbers. Gutthierry showed me the cash flow, projected appreciation and the right timing. I entered the pre-launch and within a few months the property was already above the price list.",
+        "rating": 5
+      },
+      {
+        "name": "João Rodrigues",
+        "location": "Lisbon, Portugal",
+        "text": "Even being in Portugal, I felt extremely safe investing in Porto Belo. Gutthierry was extremely technical, explained the city's Masterplan, the region's growth and especially the investment numbers. It wasn't a sale, it was consulting.",
+        "rating": 5
+      },
+      {
+        "name": "Michael Turner",
+        "location": "Orlando, USA",
+        "text": "I was looking for a safe real estate investment in Brazil, and Gutthierry delivered exactly that. Clear numbers, solid strategy and constant follow-up.",
+        "rating": 5
+      },
+      {
+        "name": "Rafael Mendes",
+        "location": "Belo Horizonte, Brazil",
+        "text": "What made me close the deal was transparency. Gutthierry showed risks, scenarios and real projections. Today I already have appreciation even before the property delivery.",
+        "rating": 5
+      },
+      {
+        "name": "Alejandro Gómez",
+        "location": "Madrid, Spain",
+        "text": "Excellent follow-up from start to finish. The investment was very well explained and structured.",
+        "rating": 5
+      },
+      {
+        "name": "Martín López",
+        "location": "Buenos Aires, Argentina",
+        "text": "I was looking to invest in the Brazilian coast safely. I received concrete data on appreciation, tourism and liquidity. Today I see that I entered at the beginning of a very promising cycle.",
+        "rating": 5
+      },
+      {
+        "name": "Felipe Azevedo",
+        "location": "Curitiba, Brazil",
+        "text": "I didn't just buy a property, I bought strategy. Timing was decisive.",
+        "rating": 5
+      },
+      {
+        "name": "Daniel Foster",
+        "location": "Toronto, Canada",
+        "text": "This is long-term investing done right. Transparent, professional and strategic.",
+        "rating": 5
+      },
+      {
         "name": "Ricardo Almeida",
-        "location": "São Paulo, SP",
-        "text": "Guitierry helped me identify an apartment in Balneário Camboriú that appreciated 35% in just 18 months. Professionalism and deep knowledge of the coastal market!",
+        "location": "Porto, Portugal",
+        "text": "Everything very clear, technical and objective. Excellent option for those who want to invest in Brazil.",
         "rating": 5
       },
       {
-        "name": "Fernanda & Carlos Mendes",
-        "location": "Curitiba, PR",
-        "text": "We sold our property in Itapema with 22% profit above expected thanks to Guitierry's marketing strategy. Perfect investment!",
+        "name": "Sebastián Rojas",
+        "location": "Santiago, Chile",
+        "text": "The differential was the future vision. I understood exactly why Porto Belo is growing.",
         "rating": 5
       },
       {
-        "name": "Dr. Paulo Henrique Costa",
-        "location": "Florianópolis, SC",
-        "text": "Exceptional consulting! Guitierry analyzed 12 properties until we found the perfect opportunity in Porto Belo. Today I have an asset that generates excellent monthly passive income.",
+        "name": "Eduardo Nogueira",
+        "location": "Campinas, Brazil",
+        "text": "My decision was to change my life. I received complete guidance on neighborhoods, growth and construction standards. Very conscious choice.",
+        "rating": 5
+      },
+      {
+        "name": "Mariana Lopes",
+        "location": "Florianópolis, Brazil",
+        "text": "Safety, clarity and care in every detail. I felt calm from start to finish.",
+        "rating": 5
+      },
+      {
+        "name": "Carlos Benítez",
+        "location": "Asunción, Paraguay",
+        "text": "I wanted to live near the sea with structure and appreciation. Everything was very well explained.",
+        "rating": 5
+      },
+      {
+        "name": "Lucía Fernández",
+        "location": "Rosario, Argentina",
+        "text": "More than selling a property, he helped me choose where to live.",
+        "rating": 5
+      },
+      {
+        "name": "Renato Figueiredo",
+        "location": "Ribeirão Preto, Brazil",
+        "text": "Attention, patience and a lot of knowledge. Today I realize my dream of living on the coast with safety.",
         "rating": 5
       }
     ]
@@ -291,46 +373,51 @@
   },
   "faq": {
     "badge": "Frequently Asked Questions",
-    "title": "Questions about Investing in Brazil?",
-    "subtitle": "Answers to the main questions from international investors",
+    "title": "Main Questions from Investors in Brazil and Abroad",
+    "subtitle": "Answers to the main questions about real estate investment on the Santa Catarina coast",
     "items": [
       {
-        "question": "Can foreign investors buy property in Brazil?",
-        "answer": "Yes! Foreign investors can buy property in Brazil without restrictions, except in border areas and rural zones that require Congressional approval. I assist with the entire legal process and documentation required for international investors."
+        "question": "Can I buy a property in Porto Belo while living outside Brazil?",
+        "answer": "Yes. More than 40% of my clients reside outside Brazil. The entire process can be done 100% remotely, with digital document submission, electronic signature, and legal support. Payment can be made via legalized international remittances. Many investors use this strategy to protect assets in hard currency and diversify risks."
       },
       {
-        "question": "What documents are required for international investors?",
-        "answer": "You will need a valid passport, Brazilian CPF (tax document), proof of address, and sworn translated documents. I help with obtaining the CPF and all necessary documentation, making the process simple and fast."
+        "question": "How does direct installment payment with the developer work?",
+        "answer": "Installment payment is one of the biggest advantages of the region. It normally works with a down payment between 20% and 30% of the property value and the balance installment directly with the developer in up to 100 or 120 months, adjusted by CUB/SC. This allows asset leverage with low monthly outlay."
       },
       {
-        "question": "How does payment work for overseas investors?",
-        "answer": "Payments can be made via international wire transfer, through a Brazilian account, or via foreign exchange contracts. I work with banking institutions specialized in international operations to ensure security and the best exchange rates."
+        "question": "Why invest in Porto Belo and not in other coastal cities?",
+        "answer": "Porto Belo is in an initial cycle of accelerated appreciation. The city has been recording average appreciation rates between 15% and 20% per year, driven by infrastructure works, urban Masterplan, new marina, shopping mall, waterfront expansion, and strong tourism growth."
       },
       {
-        "question": "Can I get a mortgage as a foreigner?",
-        "answer": "Yes, foreign residents in Brazil can obtain financing. For non-residents, payment is usually in cash, but there are alternatives for direct installment plans with developers. I present the best options according to your profile."
+        "question": "Is off-plan property really safe?",
+        "answer": "Yes, as long as it's with solid developers and proper legal analysis. We only work with companies that have delivery history, affected assets, and validated financial schedule. Statistically, properties acquired in pre-launch have greater appreciation potential."
       },
       {
-        "question": "What is the average return on investment in Balneário Camboriú?",
-        "answer": "The region shows average appreciation of 8-15% per year and rental yield of 0.5-1% per month. Balneário Camboriú is known as the 'Brazilian Dubai' due to accelerated growth and high-standard developments. I provide detailed ROI analysis for each opportunity."
+        "question": "Can I generate income from rental even when not living in Brazil?",
+        "answer": "Yes. Porto Belo and the region receive more than 1 million tourists per season between Porto Belo, Itapema, and Balneário Camboriú. Short-term rental can generate annual profitability between 6% and 10%, in addition to asset appreciation."
       },
       {
-        "question": "How does taxation work for foreign investors?",
-        "answer": "Foreign investors pay the same taxes as Brazilians: ITBI on purchase (2-3%), annual IPTU (varies by municipality), and capital gains tax on sale (15-22.5%). I work with accountants specialized in international taxation."
+        "question": "What is the ideal profile to invest in these properties?",
+        "answer": "Investors seeking asset protection, diversification, leverage, and above-average returns. Most buyers are entrepreneurs, liberal professionals, and investors who already understand the power of real estate as a store of value."
       },
       {
-        "question": "Do you offer support in other languages?",
-        "answer": "Yes! I provide service in Portuguese, English, and Spanish. All communication and documentation can be conducted in your preferred language to ensure complete understanding of the process."
+        "question": "Is there a risk of oversupply of properties in the region?",
+        "answer": "Not in the short and medium term. Demand is sustained by population growth, tourism, high-income migration, and geographic limitation. Porto Belo has height restrictions and territorial expansion limits, which helps maintain the balance between supply and demand."
       },
       {
-        "question": "Can I manage my investment remotely?",
-        "answer": "Absolutely! I offer complete remote management service, including rental administration, maintenance, construction monitoring, and periodic reports. You invest with peace of mind from anywhere in the world."
+        "question": "What is the main advantage of investing with me as a consultant?",
+        "answer": "My work is based on numbers, simulations, and strategy. I analyze the investor's profile, compare scenarios, evaluate payment flow, and focus on pre-launch opportunities, where appreciation usually happens in the first months."
       }
     ],
     "cta": {
       "title": "Still have questions?",
       "subtitle": "Contact me for personalized consulting about your investment",
       "button": "Talk to Specialist"
+    },
+    "buttons": {
+      "invest": "I want to invest in Porto Belo",
+      "simulation": "I want to receive a simulation",
+      "expert": "Ask questions to the specialist"
     }
   },
   "cta": {
@@ -345,6 +432,7 @@
     }
   },
   "footer": {
+    "devSignature": "Developed by Garbson Souza",
     "rights": "Guitierry Mariano - Real Estate Broker. All rights reserved.",
     "social": "Follow me on social media",
     "creci": "CRECI/SC"
