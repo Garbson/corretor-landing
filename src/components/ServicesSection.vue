@@ -230,7 +230,7 @@ const scrollToContact = () => {
           <a
             href="https://wa.me/5547989141108?text=Olá! Gostaria de iniciar o processo de investimento imobiliário. Vamos começar?"
             target="_blank"
-            class="bg-gradient-to-r from-primary-700 to-primary-950 text-white px-10 py-5 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:shadow-primary-700/30 transform hover:scale-105 transition-all duration-300 inline-block"
+            class="animate-pulse-wpp bg-gradient-to-r from-primary-700 to-primary-950 text-white px-10 py-5 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:shadow-primary-700/30 transform hover:scale-105 transition-all duration-300 inline-block"
           >
             {{ t('services.startButton') }}
           </a>

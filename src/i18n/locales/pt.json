@@ -9,8 +9,8 @@
   "hero": {
     "badge": "Corretor Especialista em Balneário Camboriú, Itapema e Porto Belo",
     "badgeMobile": "Especialista em Investimentos",
-    "title": "Seu investimento imobiliário aqui no Brasil Litoral de Santa Catarina Porto Belo",
-    "subtitle": "Especialista em investimentos imobiliários e propriedades de alto padrão em Balneário Camboriú, Itapema e Porto Belo. Transformo seu investimento em realidade lucrativa.",
+    "title": "Seu investimento imobiliário em Itapema e Porto Belo - Santa Catarina",
+    "subtitle": "Projetos com alto potencial de valorização, análise estratégica e acesso exclusivo ao pré-lançamento.",
     "cta": "Consulte as melhores opções",
     "ctaSecondary": "Falar com Guitierry",
     "whatsappMessage": "Olá Guitierry! Gostaria de saber mais sobre investimentos imobiliários no litoral catarinense.",
@@ -22,9 +22,9 @@
   },
   "about": {
     "badge": "Imóveis Selecionados e Limitados",
-    "title": "Seu investimento imobiliário aqui no Brasil Litoral de Santa Catarina Porto Belo",
-    "subtitle": "Seu parceiro de confiança em investimentos imobiliários no litoral",
-    "description": "Especialista em investimentos imobiliários no litoral catarinense com foco em propriedades de alto padrão. Análises precisas e oportunidades exclusivas para maximizar seus lucros.",
+    "title": "Seu investimento no Brasil na praia valorizando de 15% a 30% ao ano",
+    "subtitle": "",
+    "description": "Descubra oportunidades exclusivas no pré-lançamento em Itapema e Porto Belo, com minha consultoria especializada para garantir segurança e rentabilidade.",
     "photoPlaceholder": "Foto Profissional",
     "photoDescription": "Seu corretor especialista",
     "certifications": {
@@ -45,52 +45,97 @@
     }
   },
   "investment": {
-    "title": "Investir no Litoral Catarinense é unir",
-    "subtitle": "Três pilares fundamentais que fazem da região o destino ideal para seus investimentos imobiliários",
+    "badge": "Benefícios de investir no litoral de Santa Catarina",
+    "title": "Por que Itapema e Porto Belo são as melhores escolhas para seu próximo investimento?",
+    "subtitle": "",
     "cards": {
       "leisure": {
-        "title": "LAZER",
-        "description": "Região com qualidade de vida à beira-mar, praias paradisíacas e infraestrutura completa"
+        "title": "Alta valorização imobiliária",
+        "description": "Itapema e Porto Belo são reconhecidas pelo constante crescimento de seus mercados imobiliários. Com alta demanda e um ritmo acelerado de desenvolvimento, a valorização dos imóveis na região garante retornos sólidos para investidores."
       },
       "safety": {
-        "title": "SEGURANÇA",
-        "description": "Uma das regiões mais seguras do Brasil para investir e viver"
+        "title": "Qualidade de vida e turismo",
+        "description": "Conhecidas por suas infraestruturas de qualidade, Itapema e Porto Belo oferecem um estilo de vida único, com foco no lazer e bem-estar. O turismo impulsiona a economia local, aumentando ainda mais o valor dos imóveis e garantindo uma excelente qualidade de vida para os moradores."
       },
       "income": {
-        "title": "RENDIMENTO",
-        "description": "Seu patrimônio valorizando consistentemente mês a mês"
+        "title": "Localização estratégica",
+        "description": "Localizadas no coração do litoral catarinense, Itapema e Porto Belo têm fácil acesso a grandes centros urbanos e rodovias, tornando-se destinos ideais tanto para moradia quanto para investimento. Essa localização privilegiada impulsiona o crescimento e a valorização dos imóveis."
       }
     },
+    "cardCta": "Ver oportunidades",
     "ctaText": "Pronto para conhecer as melhores oportunidades de investimento?",
     "ctaButton": "Falar com Especialista"
   },
   "transformation": {
-    "title": "Seu investimento imobiliário aqui no Brasil Litoral de Santa Catarina Porto Belo",
-    "subtitle": "Acompanhe o desenvolvimento acelerado da região e as oportunidades únicas de investimento que surgem a cada dia",
+    "title": "A transformação de Porto Belo e Itapema está acontecendo agora",
+    "subtitle": "Entenda porque Porto Belo valoriza tanto:",
+    "description": "A cidade estruturou um Masterplan com 22 grandes obras, focado em mobilidade, turismo, infraestrutura e qualidade de vida. Isso reduz riscos, aumenta a demanda e acelera a valorização imobiliária.",
     "items": {
-      "balneario": {
-        "title": "Balneário Camboriú",
-        "description": "O maior centro de desenvolvimento imobiliário do sul do Brasil"
+      "infrastructure": {
+        "emoji": "🌆",
+        "title": "INFRAESTRUTURA URBANA",
+        "bullets": [
+          "Ampliação e modernização das principais avenidas",
+          "Criação de novas vias estruturantes",
+          "Pavimentação e requalificação urbana",
+          "Enterramento de fiação (cabeamento subterrâneo)",
+          "Expansão do saneamento básico",
+          "Drenagem e prevenção de alagamentos"
+        ]
       },
-      "itapema": {
-        "title": "Itapema em Expansão",
-        "description": "Crescimento sustentável com foco em qualidade de vida"
-      },
-      "portobelo": {
-        "title": "Porto Belo Histórico",
-        "description": "Tradição açoriana com infraestrutura moderna"
-      },
-      "projects": {
-        "title": "Novos Empreendimentos",
-        "description": "Projetos inovadores transformando o skyline da região"
+      "mobility": {
+        "emoji": "🚗",
+        "title": "MOBILIDADE E ACESSO",
+        "bullets": [
+          "Novos acessos à cidade",
+          "Melhoria da ligação com a BR-101",
+          "Abertura de corredores de mobilidade",
+          "Reorganização do trânsito urbano",
+          "Expansão de ciclovias e mobilidade sustentável"
+        ]
       },
       "tourism": {
-        "title": "Infraestrutura Turística",
-        "description": "Investimentos em hotelaria e entretenimento de classe mundial"
+        "emoji": "🌊",
+        "title": "TURISMO E ORLA",
+        "bullets": [
+          "Alargamento da faixa de areia",
+          "Reurbanização completa da orla",
+          "Construção de píer turístico para cruzeiros",
+          "Estruturação para receber navios internacionais",
+          "Novos espaços de lazer à beira-mar",
+          "Valorização das praias e áreas públicas"
+        ]
       },
-      "aerial": {
-        "title": "Vista Panorâmica",
-        "description": "A beleza natural que valoriza cada investimento"
+      "quality": {
+        "emoji": "🌳",
+        "title": "QUALIDADE DE VIDA E LAZER",
+        "bullets": [
+          "Criação de parques urbanos planejados",
+          "Áreas verdes e espaços de convivência",
+          "Equipamentos públicos modernos",
+          "Incentivo ao turismo sustentável",
+          "Desenvolvimento de polos gastronômicos"
+        ]
+      },
+      "economy": {
+        "emoji": "🏙️",
+        "title": "DESENVOLVIMENTO ECONÔMICO",
+        "bullets": [
+          "Planejamento de zonas de expansão imobiliária",
+          "Organização do crescimento urbano",
+          "Incentivo a novos empreendimentos",
+          "Fortalecimento do turismo como motor econômico"
+        ]
+      },
+      "meaning": {
+        "emoji": "📊",
+        "title": "O QUE ISSO SIGNIFICA NA PRÁTICA",
+        "bullets": [
+          "✔️ Crescimento planejado = menos risco",
+          "✔️ Infraestrutura pronta = mais procura",
+          "✔️ Turismo forte = alta liquidez",
+          "✔️ Entrada antecipada = maior valorização"
+        ]
       }
     }
   },
@@ -98,7 +143,29 @@
     "name": "Gutthierry Mariano",
     "subtitle": "Consultor imobiliário",
     "title": "Um dos Campeões de vendas da 3ª maior imobiliária do Brasil",
-    "description": "Atuo como especialista em investimentos imobiliários no litoral catarinense, sendo um dos campeões de vendas da terceira maior imobiliária do Brasil, referência nacional em performance, volume e estrutura comercial. Atendo investidores nacionais e internacionais que buscam valorização patrimonial, previsibilidade e segurança, com foco estratégico em Balneário Camboriú, Itapema e Porto Belo regiões que figuram entre as maiores taxas de valorização imobiliária do país, com médias históricas entre 15% e 25% ao ano, dependendo do estágio do projeto.",
+    "description": "Sou especialista em investimentos imobiliários no litoral catarinense, com alta performance em vendas dentro de uma das maiores imobiliárias do Brasil.\n\nAuxilio investidores do Brasil e do exterior a tomarem decisões seguras e estratégicas, com foco em valorização patrimonial e previsibilidade de retorno.\n\nAtuo em Itapema e Porto Belo, regiões que se destacam entre as maiores valorizações do país, com médias históricas entre 15% e 30% ao ano, conforme o momento de entrada no projeto.",
+    "agency": {
+      "brand": "Novo Global",
+      "tagline": "Faço parte da terceira maior imobiliária do Brasil.",
+      "stats": {
+        "sales": "R$ 1.3bi+",
+        "salesLabel": "em vendas",
+        "clients": "2.900+",
+        "clientsLabel": "clientes investidores",
+        "brokers": "500+",
+        "brokersLabel": "Corretores Ativos",
+        "countries": "em 4 países",
+        "countriesLabel": "EUA, Portugal, Inglaterra e Brasil"
+      },
+      "benefits": {
+        "title": "Vantagens exclusivas para você",
+        "item1": "Parceria com as maiores construtoras",
+        "item2": "10 anos para pagar",
+        "item3": "Financiamento sem juros direto com a construtora",
+        "item4": "Fluxo de Pagamento Flexível",
+        "item5": "Processo 100% Digital e Seguro"
+      }
+    },
     "achievements": {
       "item1": "Um dos campeões de vendas",
       "item2": "3ª maior imobiliária do Brasil",
@@ -117,6 +184,23 @@
     "buttons": {
       "invest": "Quero investir agora",
       "consulting": "Solicitar consultoria"
+    }
+  },
+  "statsBanner": {
+    "properties": {
+      "value": "8",
+      "suffix": "<",
+      "label": "Imóveis disponíveis"
+    },
+    "launches": {
+      "value": "10",
+      "suffix": "+",
+      "label": "Futuros lançamentos"
+    },
+    "satisfaction": {
+      "value": "97",
+      "suffix": "%",
+      "label": "Satisfação dos clientes"
     }
   },
   "gallery": {
@@ -232,6 +316,25 @@
         "description": "Avaliação profissional com análise de mercado, potencial de valorização e oportunidades de negócio."
       }
     }
+  },
+  "process": {
+    "title": "Investir com segurança nunca foi tão simples.",
+    "subtitle": "Entenda como funciona a minha consultoria imobiliária em 3 etapas:",
+    "steps": {
+      "step1": {
+        "title": "Entendimento e planejamento",
+        "description": "Vamos conversar para entender seu perfil de investidor e criar um plano personalizado que alinhe suas metas às melhores oportunidades no mercado."
+      },
+      "step2": {
+        "title": "Seleção e análise de oportunidades",
+        "description": "Farei uma curadoria dos melhores imóveis, apresentando estudos de viabilidade para garantir que sua escolha seja segura e rentável."
+      },
+      "step3": {
+        "title": "Apoio completo na compra",
+        "description": "Estarei com você em todas as etapas da compra, garantindo segurança e transparência do início ao fim do processo."
+      }
+    },
+    "cta": "Entrar em contato"
   },
   "testimonials": {
     "title": "Depoimentos Reais",

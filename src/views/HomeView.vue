@@ -7,7 +7,8 @@ import ExpertSection from '../components/ExpertSection.vue'
 import FaqSection from '../components/FaqSection.vue'
 import HeroSection from '../components/HeroSection.vue'
 import InvestmentSection from '../components/InvestmentSection.vue'
-import PropertyGallerySection from '../components/PropertyGallerySection.vue'
+import ProcessSection from '../components/ProcessSection.vue'
+import StatsBannerSection from '../components/StatsBannerSection.vue'
 import TestimonialsSection from '../components/TestimonialsSection.vue'
 import TransformationSection from '../components/TransformationSection.vue'
 
@@ -31,7 +32,8 @@ onMounted(() => {
     <InvestmentSection />
     <TransformationSection />
     <ExpertSection />
-    <PropertyGallerySection />
+    <StatsBannerSection />
+    <ProcessSection />
     <TestimonialsSection />
     <FaqSection />
     <ContactSection />

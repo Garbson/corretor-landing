@@ -91,7 +91,7 @@ const openWhatsApp = () => {
           <a
             :href="`https://wa.me/5547989141108?text=${whatsappMessage()}`"
             target="_blank"
-            class="group relative bg-gradient-to-r from-green-500 to-green-700 text-white px-6 sm:px-8 md:px-10 py-4 md:py-5 rounded-xl md:rounded-2xl font-semibold text-base md:text-lg hover:shadow-2xl hover:shadow-green-700/50 transform hover:scale-105 transition-all duration-300 overflow-hidden w-full sm:w-auto inline-flex items-center justify-center"
+            class="group relative animate-pulse-wpp bg-gradient-to-r from-green-500 to-green-700 text-white px-6 sm:px-8 md:px-10 py-4 md:py-5 rounded-xl md:rounded-2xl font-semibold text-base md:text-lg hover:shadow-2xl hover:shadow-green-700/50 transform hover:scale-105 transition-all duration-300 overflow-hidden w-full sm:w-auto inline-flex items-center justify-center"
           >
             <div
               class="absolute inset-0 bg-gradient-to-r from-green-400 to-green-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"

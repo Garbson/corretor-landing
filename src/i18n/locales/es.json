@@ -9,8 +9,8 @@
   "hero": {
     "badge": "Corredor Especialista en Balneário Camboriú, Itapema y Porto Belo",
     "badgeMobile": "Especialista en Inversiones",
-    "title": "Su Inversión Inmobiliaria Aquí en Brasil – Litoral de Santa Catarina, Porto Belo",
-    "subtitle": "Especialista en inversiones inmobiliarias y propiedades de lujo en Balneário Camboriú, Itapema y Porto Belo. Transformo su inversión en realidad rentable.",
+    "title": "Su inversión inmobiliaria en Itapema y Porto Belo - Santa Catarina",
+    "subtitle": "Proyectos con alto potencial de valorización, análisis estratégico y acceso exclusivo al pre-lanzamiento.",
     "cta": "Consulte las mejores opciones",
     "ctaSecondary": "Hablar con Guitierry",
     "whatsappMessage": "¡Hola Guitierry! Me gustaría saber más sobre inversiones inmobiliarias en la costa de Santa Catarina.",
@@ -22,9 +22,9 @@
   },
   "about": {
     "badge": "Propiedades Seleccionadas y Limitadas",
-    "title": "Su Inversión Inmobiliaria Aquí en Brasil – Litoral de Santa Catarina, Porto Belo",
-    "subtitle": "Su socio de confianza en inversiones inmobiliarias costeras",
-    "description": "Especialista en inversiones inmobiliarias en la costa de Santa Catarina enfocado en propiedades de lujo. Análisis precisos y oportunidades exclusivas para maximizar sus ganancias.",
+    "title": "Su inversión en Brasil en la playa valorizándose del 15% al 30% al año",
+    "subtitle": "",
+    "description": "Descubra oportunidades exclusivas en el pre-lanzamiento en Itapema y Porto Belo, con mi consultoría especializada para garantizar seguridad y rentabilidad.",
     "photoPlaceholder": "Foto Profesional",
     "photoDescription": "Su corredor especialista",
     "certifications": {
@@ -45,52 +45,97 @@
     }
   },
   "investment": {
-    "title": "Invertir en la Costa de Santa Catarina es unir",
-    "subtitle": "Tres pilares fundamentales que hacen de la región el destino ideal para sus inversiones inmobiliarias",
+    "badge": "Beneficios de invertir en el litoral de Santa Catarina",
+    "title": "¿Por qué Itapema y Porto Belo son las mejores opciones para su próxima inversión?",
+    "subtitle": "",
     "cards": {
       "leisure": {
-        "title": "OCIO",
-        "description": "Región con calidad de vida junto al mar, playas paradisíacas e infraestructura completa"
+        "title": "Alta valorización inmobiliaria",
+        "description": "Itapema y Porto Belo son reconocidas por el constante crecimiento de sus mercados inmobiliarios. Con alta demanda y un ritmo acelerado de desarrollo, la valorización de los inmuebles en la región garantiza retornos sólidos para los inversores."
       },
       "safety": {
-        "title": "SEGURIDAD",
-        "description": "Una de las regiones más seguras de Brasil para invertir y vivir"
+        "title": "Calidad de vida y turismo",
+        "description": "Conocidas por sus infraestructuras de calidad, Itapema y Porto Belo ofrecen un estilo de vida único, con foco en el ocio y bienestar. El turismo impulsa la economía local, aumentando aún más el valor de los inmuebles y garantizando una excelente calidad de vida para los residentes."
       },
       "income": {
-        "title": "RENDIMIENTO",
-        "description": "Su patrimonio valorizándose consistentemente mes a mes"
+        "title": "Ubicación estratégica",
+        "description": "Ubicadas en el corazón del litoral de Santa Catarina, Itapema y Porto Belo tienen fácil acceso a grandes centros urbanos y carreteras, convirtiéndose en destinos ideales tanto para vivir como para invertir. Esta ubicación privilegiada impulsa el crecimiento y la valorización de los inmuebles."
       }
     },
+    "cardCta": "Ver oportunidades",
     "ctaText": "¿Listo para conocer las mejores oportunidades de inversión?",
     "ctaButton": "Hablar con Especialista"
   },
   "transformation": {
-    "title": "Su Inversión Inmobiliaria Aquí en Brasil – Litoral de Santa Catarina, Porto Belo",
-    "subtitle": "Siga el desarrollo acelerado de la región y las oportunidades únicas de inversión que surgen cada día",
+    "title": "La transformación de Porto Belo e Itapema está ocurriendo ahora",
+    "subtitle": "Entienda por qué Porto Belo se valoriza tanto:",
+    "description": "La ciudad estructuró un Masterplan con 22 grandes obras, enfocado en movilidad, turismo, infraestructura y calidad de vida. Esto reduce riesgos, aumenta la demanda y acelera la valorización inmobiliaria.",
     "items": {
-      "balneario": {
-        "title": "Balneário Camboriú",
-        "description": "El mayor centro de desarrollo inmobiliario del sur de Brasil"
+      "infrastructure": {
+        "emoji": "🌆",
+        "title": "INFRAESTRUCTURA URBANA",
+        "bullets": [
+          "Ampliación y modernización de las principales avenidas",
+          "Creación de nuevas vías estructurantes",
+          "Pavimentación y requalificación urbana",
+          "Cableado subterráneo",
+          "Expansión del saneamiento básico",
+          "Drenaje y prevención de inundaciones"
+        ]
       },
-      "itapema": {
-        "title": "Itapema en Expansión",
-        "description": "Crecimiento sostenible enfocado en calidad de vida"
-      },
-      "portobelo": {
-        "title": "Porto Belo Histórico",
-        "description": "Tradición azoreña con infraestructura moderna"
-      },
-      "projects": {
-        "title": "Nuevos Emprendimientos",
-        "description": "Proyectos innovadores transformando el skyline de la región"
+      "mobility": {
+        "emoji": "🚗",
+        "title": "MOVILIDAD Y ACCESO",
+        "bullets": [
+          "Nuevos accesos a la ciudad",
+          "Mejora de la conexión con la BR-101",
+          "Apertura de corredores de movilidad",
+          "Reorganización del tránsito urbano",
+          "Expansión de ciclovías y movilidad sostenible"
+        ]
       },
       "tourism": {
-        "title": "Infraestructura Turística",
-        "description": "Inversiones en hotelería y entretenimiento de clase mundial"
+        "emoji": "🌊",
+        "title": "TURISMO Y COSTA",
+        "bullets": [
+          "Ampliación de la franja de arena",
+          "Reurbanización completa de la costa",
+          "Construcción de muelle turístico para cruceros",
+          "Estructuración para recibir barcos internacionales",
+          "Nuevos espacios de ocio junto al mar",
+          "Valorización de playas y áreas públicas"
+        ]
       },
-      "aerial": {
-        "title": "Vista Panorámica",
-        "description": "La belleza natural que valoriza cada inversión"
+      "quality": {
+        "emoji": "🌳",
+        "title": "CALIDAD DE VIDA Y OCIO",
+        "bullets": [
+          "Creación de parques urbanos planificados",
+          "Áreas verdes y espacios de convivencia",
+          "Equipamiento público moderno",
+          "Incentivo al turismo sostenible",
+          "Desarrollo de polos gastronómicos"
+        ]
+      },
+      "economy": {
+        "emoji": "🏙️",
+        "title": "DESARROLLO ECONÓMICO",
+        "bullets": [
+          "Planificación de zonas de expansión inmobiliaria",
+          "Organización del crecimiento urbano",
+          "Incentivo a nuevos emprendimientos",
+          "Fortalecimiento del turismo como motor económico"
+        ]
+      },
+      "meaning": {
+        "emoji": "📊",
+        "title": "LO QUE ESTO SIGNIFICA EN LA PRÁCTICA",
+        "bullets": [
+          "✔️ Crecimiento planificado = menos riesgo",
+          "✔️ Infraestructura lista = más demanda",
+          "✔️ Turismo fuerte = alta liquidez",
+          "✔️ Entrada anticipada = mayor valorización"
+        ]
       }
     }
   },
@@ -98,7 +143,29 @@
     "name": "Gutthierry Mariano",
     "subtitle": "Consultor Inmobiliario",
     "title": "Uno de los Campeones de Ventas de la 3ª Mayor Inmobiliaria de Brasil",
-    "description": "Trabajo como especialista en inversiones inmobiliarias en la costa de Santa Catarina, siendo uno de los campeones de ventas de la tercera mayor inmobiliaria de Brasil, referencia nacional en desempeño, volumen y estructura comercial. Atiendo inversores nacionales e internacionales que buscan valorización patrimonial, previsibilidad y seguridad, con enfoque estratégico en Balneário Camboriú, Itapema y Porto Belo — regiones que figuran entre las mayores tasas de valorización inmobiliaria del país, con promedios históricos entre 15% y 25% al año, dependiendo de la etapa del proyecto.",
+    "description": "Soy especialista en inversiones inmobiliarias en el litoral de Santa Catarina, con alto desempeño en ventas dentro de una de las mayores inmobiliarias de Brasil.\n\nAyudo a inversores de Brasil y del exterior a tomar decisiones seguras y estratégicas, con foco en valorización patrimonial y previsibilidad de retorno.\n\nActúo en Itapema y Porto Belo, regiones que se destacan entre las mayores valorizaciones del país, con promedios históricos entre 15% y 30% al año, según el momento de entrada en el proyecto.",
+    "agency": {
+      "brand": "Novo Global",
+      "tagline": "Formo parte de la tercera mayor inmobiliaria de Brasil.",
+      "stats": {
+        "sales": "R$ 1.3mil mill+",
+        "salesLabel": "en ventas",
+        "clients": "2.900+",
+        "clientsLabel": "clientes inversores",
+        "brokers": "500+",
+        "brokersLabel": "Corredores Activos",
+        "countries": "en 4 países",
+        "countriesLabel": "EE.UU., Portugal, Inglaterra y Brasil"
+      },
+      "benefits": {
+        "title": "Ventajas exclusivas para usted",
+        "item1": "Alianza con las mayores constructoras",
+        "item2": "10 años para pagar",
+        "item3": "Financiación sin intereses directa con la constructora",
+        "item4": "Flujo de Pago Flexible",
+        "item5": "Proceso 100% Digital y Seguro"
+      }
+    },
     "achievements": {
       "item1": "Uno de los campeones de ventas",
       "item2": "3ª mayor inmobiliaria de Brasil",
@@ -117,6 +184,23 @@
     "buttons": {
       "invest": "Quiero invertir ahora",
       "consulting": "Solicitar consultoría"
+    }
+  },
+  "statsBanner": {
+    "properties": {
+      "value": "8",
+      "suffix": "<",
+      "label": "Inmuebles disponibles"
+    },
+    "launches": {
+      "value": "10",
+      "suffix": "+",
+      "label": "Futuros lanzamientos"
+    },
+    "satisfaction": {
+      "value": "97",
+      "suffix": "%",
+      "label": "Satisfacción de clientes"
     }
   },
   "gallery": {
@@ -232,6 +316,25 @@
         "description": "Evaluación profesional con análisis de mercado, potencial de valorización y oportunidades de negocio."
       }
     }
+  },
+  "process": {
+    "title": "Invertir con seguridad nunca fue tan simple.",
+    "subtitle": "Entienda cómo funciona mi consultoría inmobiliaria en 3 etapas:",
+    "steps": {
+      "step1": {
+        "title": "Comprensión y planificación",
+        "description": "Conversaremos para entender su perfil de inversor y crear un plan personalizado que alinee sus metas con las mejores oportunidades del mercado."
+      },
+      "step2": {
+        "title": "Selección y análisis de oportunidades",
+        "description": "Haré una curaduría de los mejores inmuebles, presentando estudios de viabilidad para garantizar que su elección sea segura y rentable."
+      },
+      "step3": {
+        "title": "Apoyo completo en la compra",
+        "description": "Estaré con usted en cada etapa de la compra, garantizando seguridad y transparencia de principio a fin."
+      }
+    },
+    "cta": "Contactar"
   },
   "testimonials": {
     "title": "Testimonios Reales",
