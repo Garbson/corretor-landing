@@ -36,7 +36,7 @@ const renderStars = (rating: number) => {
 </script>
 
 <template>
-  <section id="testimonials" class="py-8 sm:py-12 lg:py-20 relative overflow-hidden bg-gradient-to-b from-white via-primary-50/30 to-white">
+  <section id="testimonials" class="py-8 sm:py-12 lg:py-20 relative overflow-hidden bg-primary-100">
     <!-- Decorative Background Elements -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none">
       <div class="absolute top-10 sm:top-20 right-4 sm:right-10 w-48 sm:w-72 h-48 sm:h-72 bg-primary-200/20 rounded-full blur-3xl"></div>

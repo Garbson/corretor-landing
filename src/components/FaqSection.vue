@@ -20,7 +20,7 @@ const toggleFaq = (index: number) => {
 </script>
 
 <template>
-  <section id="faq" class="py-8 sm:py-12 lg:py-20 bg-gradient-to-b from-white to-gray-50">
+  <section id="faq" class="py-8 sm:py-12 lg:py-20 bg-white">
     <div class="container mx-auto px-4 lg:px-8">
       <!-- Section Header -->
       <div class="text-center mb-8 sm:mb-12 md:mb-16 animate-on-scroll max-w-3xl mx-auto">

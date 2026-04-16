@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
+import { ref, computed, onMounted, onBeforeUnmount } from "vue";
 import { useI18n } from "vue-i18n";
 
 const { t, tm } = useI18n();
@@ -31,20 +31,42 @@ const items = computed(() => {
 });
 
 const currentIndex = ref(0);
-
-const previousItem = () => {
-  const total = items.value.length;
-  currentIndex.value = currentIndex.value > 0 ? currentIndex.value - 1 : total - 1;
-};
+let timer: number | undefined;
 
 const nextItem = () => {
   const total = items.value.length;
-  currentIndex.value = currentIndex.value < total - 1 ? currentIndex.value + 1 : 0;
+  currentIndex.value =
+    currentIndex.value < total - 1 ? currentIndex.value + 1 : 0;
 };
+
+const startAutoplay = () => {
+  stopAutoplay();
+  timer = window.setInterval(nextItem, 3000);
+};
+
+const stopAutoplay = () => {
+  if (timer !== undefined) {
+    clearInterval(timer);
+    timer = undefined;
+  }
+};
+
+const selectItem = (index: number) => {
+  currentIndex.value = index;
+  startAutoplay(); // reinicia contagem ao clicar
+};
+
+onMounted(() => {
+  startAutoplay();
+});
+
+onBeforeUnmount(() => {
+  stopAutoplay();
+});
 </script>
 
 <template>
-  <section id="transformation" class="py-12 sm:py-16 md:py-20 bg-gray-50">
+  <section id="transformation" class="py-12 sm:py-16 md:py-20 bg-white">
     <div class="container mx-auto px-4">
       <div class="text-center max-w-4xl mx-auto mb-8 sm:mb-12">
         <h2
@@ -62,93 +84,91 @@ const nextItem = () => {
         </p>
       </div>
 
-      <div class="relative max-w-5xl mx-auto">
-        <button
-          @click="previousItem"
-          class="absolute left-0 top-1/2 -translate-y-1/2 z-20 bg-white hover:bg-primary-700 text-primary-700 hover:text-white w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center justify-center -ml-4 sm:-ml-6 lg:-ml-8"
-          aria-label="Anterior"
+      <!-- Layout: Vídeo à esquerda + Carrossel à direita (desktop) / empilhado (mobile) -->
+      <div
+        class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-6 sm:gap-8 lg:gap-10 items-start"
+      >
+        <!-- Área do Vídeo (YouTube Shorts) -->
+        <div
+          class="w-full max-w-sm sm:max-w-md mx-auto lg:max-w-none lg:mx-0"
         >
-          <svg
-            class="w-5 sm:w-6 lg:w-7 h-5 sm:h-6 lg:h-7"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M15 19l-7-7 7-7"
-            />
-          </svg>
-        </button>
-
-        <button
-          @click="nextItem"
-          class="absolute right-0 top-1/2 -translate-y-1/2 z-20 bg-white hover:bg-primary-700 text-primary-700 hover:text-white w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center justify-center -mr-4 sm:-mr-6 lg:-mr-8"
-          aria-label="Próximo"
-        >
-          <svg
-            class="w-5 sm:w-6 lg:w-7 h-5 sm:h-6 lg:h-7"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M9 5l7 7-7 7"
-            />
-          </svg>
-        </button>
-
-        <div class="px-6 sm:px-10 lg:px-14">
           <div
-            v-for="(item, idx) in items"
-            v-show="idx === currentIndex"
-            :key="item.key"
-            class="relative rounded-2xl overflow-hidden shadow-2xl min-h-[420px] sm:min-h-[500px] bg-gray-900"
+            class="relative w-full aspect-[9/16] bg-black rounded-2xl overflow-hidden shadow-2xl"
           >
-            <img
-              :src="item.image"
-              :alt="item.title"
-              class="absolute inset-0 w-full h-full object-cover"
-            />
-            <div class="absolute inset-0 bg-black/60"></div>
-
-            <div class="relative p-6 sm:p-10 lg:p-12 text-white">
-              <div class="text-4xl sm:text-5xl mb-3">{{ item.emoji }}</div>
-              <h3 class="text-xl sm:text-2xl md:text-3xl font-bold mb-5 tracking-wide">
-                {{ item.title }}
-              </h3>
-              <ul class="space-y-2 sm:space-y-3">
-                <li
-                  v-for="(bullet, i) in item.bullets"
-                  :key="i"
-                  class="flex items-start gap-2 text-sm sm:text-base text-white/95"
-                >
-                  <span v-if="!bullet.startsWith('✔️')" class="text-accent-400 mt-1">•</span>
-                  <span>{{ bullet }}</span>
-                </li>
-              </ul>
-            </div>
+            <iframe
+              class="absolute inset-0 w-full h-full"
+              src="https://www.youtube.com/embed/6E9rRXFuGS4?rel=0&modestbranding=1&playsinline=1"
+              title="Transformação de Porto Belo e Itapema"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
 
-        <div class="flex justify-center gap-2 mt-6">
-          <button
-            v-for="(_, index) in items"
-            :key="index"
-            @click="currentIndex = index"
-            class="transition-all duration-300"
-            :class="[
-              currentIndex === index
-                ? 'w-8 sm:w-10 h-2 sm:h-2.5 bg-primary-700'
-                : 'w-2 sm:w-2.5 h-2 sm:h-2.5 bg-gray-400 hover:bg-gray-500',
-            ]"
-            style="border-radius: 9999px"
-          ></button>
+        <!-- Carrossel (autoplay, sem setas) -->
+        <div class="relative">
+          <div
+            class="relative rounded-2xl overflow-hidden shadow-2xl h-[420px] sm:h-[500px] lg:h-[675px] bg-gray-900"
+          >
+            <div
+              v-for="(item, idx) in items"
+              v-show="idx === currentIndex"
+              :key="item.key"
+              class="absolute inset-0"
+            >
+              <img
+                :src="item.image"
+                :alt="item.title"
+                class="absolute inset-0 w-full h-full object-cover"
+              />
+              <div class="absolute inset-0 bg-black/60"></div>
+
+              <div
+                class="relative h-full p-6 sm:p-8 md:p-10 pb-14 sm:pb-16 text-white overflow-y-auto"
+              >
+                <div class="text-4xl sm:text-5xl mb-3">{{ item.emoji }}</div>
+                <h3
+                  class="text-xl sm:text-2xl md:text-3xl font-bold mb-5 tracking-wide"
+                >
+                  {{ item.title }}
+                </h3>
+                <ul class="space-y-2 sm:space-y-3">
+                  <li
+                    v-for="(bullet, i) in item.bullets"
+                    :key="i"
+                    class="flex items-start gap-2 text-sm sm:text-base text-white/95"
+                  >
+                    <span
+                      v-if="!bullet.startsWith('✔️')"
+                      class="text-accent-400 mt-1"
+                      >•</span
+                    >
+                    <span>{{ bullet }}</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Indicadores (bolinhas) sobrepostos na imagem -->
+            <div
+              class="absolute bottom-4 sm:bottom-5 left-0 right-0 z-10 flex justify-center gap-2"
+            >
+              <button
+                v-for="(_, index) in items"
+                :key="index"
+                @click="selectItem(index)"
+                class="transition-all duration-300"
+                :class="[
+                  currentIndex === index
+                    ? 'w-8 sm:w-10 h-2 sm:h-2.5 bg-white'
+                    : 'w-2 sm:w-2.5 h-2 sm:h-2.5 bg-white/50 hover:bg-white/80',
+                ]"
+                style="border-radius: 9999px"
+                :aria-label="`Ir para slide ${index + 1}`"
+              ></button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

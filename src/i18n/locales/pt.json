@@ -20,6 +20,9 @@
       "clientsLabel": "Clientes Satisfeitos"
     }
   },
+  "marquee": {
+    "message": "Financiamento direto com a construtora · Parcele em até 120 vezes"
+  },
   "about": {
     "badge": "Imóveis Selecionados e Limitados",
     "title": "Seu investimento no Brasil na praia valorizando de 15% a 30% ao ano",
@@ -189,12 +192,12 @@
   "statsBanner": {
     "properties": {
       "value": "8",
-      "suffix": "<",
+      "suffix": "",
       "label": "Imóveis disponíveis"
     },
     "launches": {
       "value": "10",
-      "suffix": "+",
+      "suffix": "",
       "label": "Futuros lançamentos"
     },
     "satisfaction": {
@@ -467,7 +470,7 @@
       "email": "guitierry.mariano@investlitoral.com",
       "sendEmail": "Enviar E-mail",
       "locationTitle": "Localização",
-      "address": "Balneário Camboriú, Itapema e Porto Belo - SC",
+      "address": "Itapema e Porto Belo - SC",
       "viewMap": "Ver no Mapa"
     },
     "social": {

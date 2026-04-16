@@ -63,8 +63,13 @@ export default {
         'bounce-slow': 'bounce 2s infinite',
         'scale-in': 'scaleIn 0.5s ease-out',
         'gradient': 'gradient 3s ease infinite',
+        'marquee': 'marquee 25s linear infinite',
       },
       keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
         fadeIn: {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },

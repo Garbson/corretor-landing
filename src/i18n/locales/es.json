@@ -20,6 +20,9 @@
       "clientsLabel": "Clientes Satisfechos"
     }
   },
+  "marquee": {
+    "message": "Financiación directa con la constructora · Paga en hasta 120 cuotas"
+  },
   "about": {
     "badge": "Propiedades Seleccionadas y Limitadas",
     "title": "Su inversión en Brasil en la playa valorizándose del 15% al 30% al año",
@@ -189,12 +192,12 @@
   "statsBanner": {
     "properties": {
       "value": "8",
-      "suffix": "<",
+      "suffix": "",
       "label": "Inmuebles disponibles"
     },
     "launches": {
       "value": "10",
-      "suffix": "+",
+      "suffix": "",
       "label": "Futuros lanzamientos"
     },
     "satisfaction": {
@@ -467,7 +470,7 @@
       "email": "guitierry.mariano@investlitoral.com",
       "sendEmail": "Enviar E-mail",
       "locationTitle": "Ubicación",
-      "address": "Balneário Camboriú, Itapema y Porto Belo - SC",
+      "address": "Itapema y Porto Belo - SC",
       "viewMap": "Ver en el Mapa"
     },
     "social": {

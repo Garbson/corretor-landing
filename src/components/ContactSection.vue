@@ -12,7 +12,7 @@ const openWhatsApp = () => {
 </script>
 
 <template>
-  <section id="contact" class="py-8 sm:py-12 lg:py-20 bg-gradient-to-br from-primary-50 via-white to-accent-50">
+  <section id="contact" class="py-8 sm:py-12 lg:py-20 bg-primary-100">
     <div class="container mx-auto px-4 lg:px-8">
       <!-- Section Header -->
       <div class="text-center mb-8 sm:mb-12 lg:mb-16 animate-on-scroll">

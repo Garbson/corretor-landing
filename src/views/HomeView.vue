@@ -7,8 +7,8 @@ import ExpertSection from '../components/ExpertSection.vue'
 import FaqSection from '../components/FaqSection.vue'
 import HeroSection from '../components/HeroSection.vue'
 import InvestmentSection from '../components/InvestmentSection.vue'
+import MarqueeBanner from '../components/MarqueeBanner.vue'
 import ProcessSection from '../components/ProcessSection.vue'
-import StatsBannerSection from '../components/StatsBannerSection.vue'
 import TestimonialsSection from '../components/TestimonialsSection.vue'
 import TransformationSection from '../components/TransformationSection.vue'
 
@@ -27,12 +27,12 @@ onMounted(() => {
 <template>
   <div>
     <HeroSection />
+    <MarqueeBanner />
     <AboutSection v-if="!isMobile" />
     <AboutSectionMobile v-if="isMobile" />
     <InvestmentSection />
     <TransformationSection />
     <ExpertSection />
-    <StatsBannerSection />
     <ProcessSection />
     <TestimonialsSection />
     <FaqSection />

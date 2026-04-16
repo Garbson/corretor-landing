@@ -1,28 +1,27 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useI18n } from 'vue-i18n'
-import pt from '../i18n/locales/pt.json'
-import en from '../i18n/locales/en.json'
-import es from '../i18n/locales/es.json'
+import { useI18n } from "vue-i18n";
+import en from "../i18n/locales/en.json";
+import es from "../i18n/locales/es.json";
+import pt from "../i18n/locales/pt.json";
 
 const currentYear = new Date().getFullYear();
-const { locale } = useI18n()
+const { locale } = useI18n();
 
 // Import translations directly to avoid runtime compilation errors
 const translations: any = {
   pt,
   en,
-  es
-}
+  es,
+};
 
 const t = (key: string) => {
-  const keys = key.split('.')
-  let value: any = translations[locale.value]
+  const keys = key.split(".");
+  let value: any = translations[locale.value];
   for (const k of keys) {
-    value = value?.[k]
+    value = value?.[k];
   }
-  return value || key
-}
+  return value || key;
+};
 
 const scrollToSection = (sectionId: string) => {
   const element = document.getElementById(sectionId);
@@ -57,9 +56,6 @@ const scrollToSection = (sectionId: string) => {
             >
             <span class="text-white"> Mariano</span>
           </div>
-          <p class="text-gray-300 mb-6 leading-relaxed">
-            {{ t('about.subtitle') }}
-          </p>
           <div class="flex space-x-4">
             <a
               href="https://wa.me/5547989141108"
@@ -101,32 +97,32 @@ const scrollToSection = (sectionId: string) => {
         <!-- Quick Links -->
         <div>
           <h3 class="text-lg font-semibold mb-4 text-white">
-            {{ t('nav.services') }}
+            {{ t("nav.services") }}
           </h3>
           <div class="space-y-2">
             <button
               @click="scrollToSection('hero')"
               class="block text-gray-300 hover:text-accent-400 transition-colors text-left"
             >
-              {{ t('nav.home') }}
+              {{ t("nav.home") }}
             </button>
             <button
               @click="scrollToSection('about')"
               class="block text-gray-300 hover:text-accent-400 transition-colors text-left"
             >
-              {{ t('nav.about') }}
+              {{ t("nav.about") }}
             </button>
-            <button
+            <!-- <button
               @click="scrollToSection('services')"
               class="block text-gray-300 hover:text-accent-400 transition-colors text-left"
             >
-              {{ t('nav.services') }}
-            </button>
+              {{ t("nav.services") }}
+            </button> -->
             <button
               @click="scrollToSection('testimonials')"
               class="block text-gray-300 hover:text-accent-400 transition-colors text-left"
             >
-              {{ t('nav.testimonials') }}
+              {{ t("nav.testimonials") }}
             </button>
             <button
               @click="scrollToSection('faq')"
@@ -140,7 +136,7 @@ const scrollToSection = (sectionId: string) => {
         <!-- Contact -->
         <div>
           <h3 class="text-lg font-semibold mb-4 text-white">
-            {{ t('nav.contact') }}
+            {{ t("nav.contact") }}
           </h3>
           <div class="space-y-3 text-gray-300">
             <div class="flex items-start space-x-3">
@@ -163,7 +159,7 @@ const scrollToSection = (sectionId: string) => {
                   d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                 />
               </svg>
-              <p class="text-sm">{{ t('contact.info.address') }}</p>
+              <p class="text-sm">{{ t("contact.info.address") }}</p>
             </div>
             <div class="flex items-center space-x-3">
               <svg
@@ -182,7 +178,7 @@ const scrollToSection = (sectionId: string) => {
               <a
                 href="tel:+5547989141108"
                 class="text-sm hover:text-accent-400 transition-colors"
-                >{{ t('contact.info.phone') }}</a
+                >{{ t("contact.info.phone") }}</a
               >
             </div>
             <div class="flex items-center space-x-3">
@@ -202,7 +198,7 @@ const scrollToSection = (sectionId: string) => {
               <a
                 href="mailto:guitierry.mariano@investlitoral.com"
                 class="text-sm hover:text-accent-400 transition-colors"
-                >{{ t('contact.info.email') }}</a
+                >{{ t("contact.info.email") }}</a
               >
             </div>
           </div>
@@ -215,10 +211,10 @@ const scrollToSection = (sectionId: string) => {
           class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0"
         >
           <p class="text-gray-400 text-sm text-center md:text-left">
-            &copy; {{ currentYear }} {{ t('footer.rights') }}
+            &copy; {{ currentYear }} {{ t("footer.rights") }}
           </p>
           <div class="flex items-center space-x-4 text-gray-400 text-sm">
-            <span>{{ t('footer.creci') }}</span>
+            <span>{{ t("footer.creci") }}</span>
           </div>
         </div>
 
@@ -230,10 +226,20 @@ const scrollToSection = (sectionId: string) => {
             rel="noopener noreferrer"
             class="inline-flex items-center gap-1.5 text-xs text-accent-400 hover:text-accent-300 opacity-60 hover:opacity-100 transition-all duration-300"
           >
-            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+            <svg
+              class="w-3 h-3"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+              />
             </svg>
-            {{ t('footer.devSignature') }}
+            {{ t("footer.devSignature") }}
           </a>
         </div>
       </div>

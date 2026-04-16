@@ -20,31 +20,29 @@ const items = [
 </script>
 
 <template>
-  <section
-    class="relative py-16 sm:py-20 md:py-24 bg-cover bg-center"
-    style="background-image: url('/img/bg2.jpeg')"
+  <div
+    class="relative bg-cover bg-center rounded-xl overflow-hidden"
+    :style="{ backgroundImage: `url('/img/bg2.jpeg')` }"
   >
-    <div class="absolute inset-0 bg-black/70"></div>
+    <div class="absolute inset-0 bg-black/60"></div>
 
-    <div class="relative container mx-auto px-4">
-      <div
-        class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-4 max-w-6xl mx-auto divide-y md:divide-y-0 md:divide-x divide-white/20"
-      >
+    <div class="relative py-4 sm:py-5 px-3 sm:px-4">
+      <div class="grid grid-cols-3 gap-2 sm:gap-3 divide-x divide-white/20">
         <div
           v-for="(item, idx) in items"
           :key="item.key"
-          class="flex items-center justify-center gap-5 sm:gap-6 py-4 md:py-0 md:px-6"
+          class="flex flex-col items-center justify-center text-center gap-1.5 sm:gap-2 px-1 sm:px-2"
           v-motion
-          :initial="{ opacity: 0, y: 30 }"
+          :initial="{ opacity: 0, y: 20 }"
           :visible="{ opacity: 1, y: 0 }"
           :delay="200 + idx * 150"
         >
           <div
-            class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-black flex items-center justify-center flex-shrink-0"
+            class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-black/80 flex items-center justify-center flex-shrink-0"
           >
             <svg
               v-if="item.icon === 'house'"
-              class="w-8 h-8 sm:w-10 sm:h-10 text-white"
+              class="w-4 h-4 sm:w-5 sm:h-5 text-white"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -58,7 +56,7 @@ const items = [
             </svg>
             <svg
               v-else-if="item.icon === 'building'"
-              class="w-8 h-8 sm:w-10 sm:h-10 text-white"
+              class="w-4 h-4 sm:w-5 sm:h-5 text-white"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -72,7 +70,7 @@ const items = [
             </svg>
             <svg
               v-else
-              class="w-8 h-8 sm:w-10 sm:h-10 text-white"
+              class="w-4 h-4 sm:w-5 sm:h-5 text-white"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -86,21 +84,24 @@ const items = [
             </svg>
           </div>
 
-          <div class="text-white">
-            <div class="flex items-start gap-1">
-              <span class="text-4xl sm:text-5xl md:text-6xl font-bold leading-none">
+          <div class="text-white leading-none">
+            <div class="flex items-baseline justify-center gap-0.5">
+              <span class="text-xl sm:text-2xl font-bold">
                 {{ t(`statsBanner.${item.key}.value`) }}
               </span>
-              <span class="text-xl sm:text-2xl text-accent-400 font-semibold mt-1">
+              <span
+                v-if="t(`statsBanner.${item.key}.suffix`)"
+                class="text-sm sm:text-base text-white font-semibold"
+              >
                 {{ t(`statsBanner.${item.key}.suffix`) }}
               </span>
             </div>
-            <p class="text-sm sm:text-base text-gray-200 mt-2">
+            <p class="text-[10px] sm:text-xs text-gray-200 mt-1 leading-tight">
               {{ t(`statsBanner.${item.key}.label`) }}
             </p>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>

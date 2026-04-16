@@ -83,7 +83,7 @@ onUnmounted(() => {
           >
             {{ t("nav.about") }}
           </button>
-          <button
+          <!-- <button
             @click="scrollToSection('services')"
             :class="[
               'px-3 lg:px-4 py-2 transition-all duration-300 font-medium rounded-lg text-sm lg:text-base',
@@ -93,7 +93,7 @@ onUnmounted(() => {
             ]"
           >
             {{ t("nav.services") }}
-          </button>
+          </button> -->
           <button
             @click="scrollToSection('testimonials')"
             :class="[
@@ -132,7 +132,7 @@ onUnmounted(() => {
               v-model="locale"
               @change="changeLanguage(locale)"
               :class="[
-                'backdrop-blur-md border rounded-lg px-2 lg:px-3 pr-6 lg:pr-8 py-1.5 lg:py-2 text-xs lg:text-sm font-medium focus:outline-none transition-all cursor-pointer',
+                'appearance-none backdrop-blur-md border rounded-xl px-2 lg:px-3 pr-8 lg:pr-9 py-1.5 lg:py-2 text-xs lg:text-sm font-medium focus:outline-none transition-all cursor-pointer',
                 isScrolled
                   ? 'bg-white/50 border-gray-200 focus:border-primary-600 focus:ring-2 focus:ring-primary-100 hover:bg-white text-gray-700'
                   : 'bg-white/10 border-white/30 focus:border-accent-300 focus:ring-2 focus:ring-white/20 hover:bg-white/20 text-white',
@@ -142,6 +142,20 @@ onUnmounted(() => {
               <option value="en">🇺🇸 EN</option>
               <option value="es">🇪🇸 ES</option>
             </select>
+            <svg
+              class="pointer-events-none absolute right-2.5 top-1/2 h-3.5 w-3.5 -translate-y-1/2"
+              :class="isScrolled ? 'text-gray-500' : 'text-white/90'"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
           </div>
 
           <!-- Mobile Menu Button -->
@@ -189,14 +203,16 @@ onUnmounted(() => {
             : 'bg-black/30 backdrop-blur-md border-white/20',
         ]"
       >
-        <div class="px-3 sm:px-4 pt-3 sm:pt-4 pb-4 sm:pb-6 space-y-1 sm:space-y-2">
+        <div
+          class="px-3 sm:px-4 pt-3 sm:pt-4 pb-4 sm:pb-6 space-y-1 sm:space-y-2"
+        >
           <!-- Mobile Language Selector -->
-          <div class="sm:hidden mb-3">
+          <div class="sm:hidden mb-3 relative">
             <select
               v-model="locale"
               @change="changeLanguage(locale)"
               :class="[
-                'w-full backdrop-blur-md border rounded-lg px-3 pr-8 py-2 text-sm font-medium focus:outline-none transition-all cursor-pointer',
+                'w-full appearance-none backdrop-blur-md border rounded-lg px-3 pr-9 py-2 text-sm font-medium focus:outline-none transition-all cursor-pointer',
                 isScrolled
                   ? 'bg-white/50 border-gray-200 focus:border-primary-600 focus:ring-2 focus:ring-primary-100 hover:bg-white text-gray-700'
                   : 'bg-white/10 border-white/30 focus:border-accent-300 focus:ring-2 focus:ring-white/20 hover:bg-white/20 text-white',
@@ -206,6 +222,20 @@ onUnmounted(() => {
               <option value="en">🇺🇸 English</option>
               <option value="es">🇪🇸 Español</option>
             </select>
+            <svg
+              class="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2"
+              :class="isScrolled ? 'text-gray-500' : 'text-white/90'"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
           </div>
 
           <button
