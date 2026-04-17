@@ -21,7 +21,7 @@
     }
   },
   "marquee": {
-    "message": "Financiamento direto com a construtora · Parcele em até 120 vezes"
+    "message": "Financiamento direto com a construtora · Sem juros · Parcele em até 120 vezes"
   },
   "about": {
     "badge": "Imóveis Selecionados e Limitados",
@@ -162,7 +162,7 @@
       },
       "benefits": {
         "title": "Vantagens exclusivas para você",
-        "item1": "Parceria com as maiores construtoras",
+        "item1": "Parceria com todas as construtoras",
         "item2": "10 anos para pagar",
         "item3": "Financiamento sem juros direto com a construtora",
         "item4": "Fluxo de Pagamento Flexível",
@@ -538,7 +538,7 @@
     }
   },
   "footer": {
-    "rights": "Guitierry Mariano - Corretor de Imóveis. Todos os direitos reservados.",
+    "rights": "Gutthierry Mariano - Corretor de Imóveis. Todos os direitos reservados.",
     "social": "Siga-me nas redes sociais",
     "creci": "CRECI/SC",
     "devSignature": "Desenvolvido por Garbson Souza"

@@ -21,12 +21,12 @@ const items = [
 
 <template>
   <div
-    class="relative bg-cover bg-center rounded-xl overflow-hidden"
+    class="relative bg-cover bg-center overflow-hidden"
     :style="{ backgroundImage: `url('/img/bg2.jpeg')` }"
   >
     <div class="absolute inset-0 bg-black/60"></div>
 
-    <div class="relative py-4 sm:py-5 px-3 sm:px-4">
+    <div class="relative py-8 sm:py-10 md:py-12 px-4">
       <div class="grid grid-cols-3 gap-2 sm:gap-3 divide-x divide-white/20">
         <div
           v-for="(item, idx) in items"
@@ -38,11 +38,11 @@ const items = [
           :delay="200 + idx * 150"
         >
           <div
-            class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-black/80 flex items-center justify-center flex-shrink-0"
+            class="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-black/80 flex items-center justify-center flex-shrink-0"
           >
             <svg
               v-if="item.icon === 'house'"
-              class="w-4 h-4 sm:w-5 sm:h-5 text-white"
+              class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -56,7 +56,7 @@ const items = [
             </svg>
             <svg
               v-else-if="item.icon === 'building'"
-              class="w-4 h-4 sm:w-5 sm:h-5 text-white"
+              class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -70,7 +70,7 @@ const items = [
             </svg>
             <svg
               v-else
-              class="w-4 h-4 sm:w-5 sm:h-5 text-white"
+              class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -86,17 +86,17 @@ const items = [
 
           <div class="text-white leading-none">
             <div class="flex items-baseline justify-center gap-0.5">
-              <span class="text-xl sm:text-2xl font-bold">
+              <span class="text-3xl sm:text-4xl md:text-5xl font-bold">
                 {{ t(`statsBanner.${item.key}.value`) }}
               </span>
               <span
                 v-if="t(`statsBanner.${item.key}.suffix`)"
-                class="text-sm sm:text-base text-white font-semibold"
+                class="text-lg sm:text-xl md:text-2xl text-white font-semibold"
               >
                 {{ t(`statsBanner.${item.key}.suffix`) }}
               </span>
             </div>
-            <p class="text-[10px] sm:text-xs text-gray-200 mt-1 leading-tight">
+            <p class="text-xs sm:text-sm md:text-base text-gray-200 mt-1 leading-tight">
               {{ t(`statsBanner.${item.key}.label`) }}
             </p>
           </div>

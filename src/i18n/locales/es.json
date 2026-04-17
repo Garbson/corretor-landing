@@ -21,7 +21,7 @@
     }
   },
   "marquee": {
-    "message": "Financiación directa con la constructora · Paga en hasta 120 cuotas"
+    "message": "Financiación directa con la constructora · Sin intereses · Paga en hasta 120 cuotas"
   },
   "about": {
     "badge": "Propiedades Seleccionadas y Limitadas",
@@ -539,7 +539,7 @@
   },
   "footer": {
     "devSignature": "Desarrollado por Garbson Souza",
-    "rights": "Guitierry Mariano - Corredor de Bienes Raíces. Todos los derechos reservados.",
+    "rights": "Gutthierry Mariano - Corredor de Bienes Raíces. Todos los derechos reservados.",
     "social": "Sígueme en las redes sociales",
     "creci": "CRECI/SC"
   }

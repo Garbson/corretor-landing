@@ -21,7 +21,7 @@
     }
   },
   "marquee": {
-    "message": "Financing directly with the developer · Pay in up to 120 installments"
+    "message": "Financing directly with the developer · Interest-free · Pay in up to 120 installments"
   },
   "about": {
     "badge": "Selected and Limited Properties",
@@ -539,7 +539,7 @@
   },
   "footer": {
     "devSignature": "Developed by Garbson Souza",
-    "rights": "Guitierry Mariano - Real Estate Broker. All rights reserved.",
+    "rights": "Gutthierry Mariano - Real Estate Broker. All rights reserved.",
     "social": "Follow me on social media",
     "creci": "CRECI/SC"
   }

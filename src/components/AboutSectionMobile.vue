@@ -5,10 +5,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <section
-    id="about"
-    class="relative py-8 sm:py-12 bg-white"
-  >
+  <section id="about" class="relative py-8 sm:py-12 bg-white">
     <div class="container mx-auto px-4">
       <!-- Badge and Title -->
       <div class="text-center mb-6">
