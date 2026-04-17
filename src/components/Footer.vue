@@ -214,7 +214,7 @@ const scrollToSection = (sectionId: string) => {
             &copy; {{ currentYear }} {{ t("footer.rights") }}
           </p>
           <div class="flex items-center space-x-4 text-gray-400 text-sm">
-            <span>{{ t("footer.creci") }}</span>
+            <span>{{ t("footer.creci") }} 56591</span>
           </div>
         </div>
 
