@@ -82,7 +82,7 @@ const scrollToSection = (sectionId: string) => {
               </svg>
             </a>
             <a
-              href="mailto:guitierry.mariano@investlitoral.com"
+              href="mailto:gutthierryconsultoria@gmail.com"
               class="w-10 h-10 rounded-full bg-white/10 hover:bg-accent-600 flex items-center justify-center transition-all hover:scale-110"
             >
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -196,7 +196,7 @@ const scrollToSection = (sectionId: string) => {
                 />
               </svg>
               <a
-                href="mailto:guitierry.mariano@investlitoral.com"
+                href="mailto:gutthierryconsultoria@gmail.com"
                 class="text-sm hover:text-accent-400 transition-colors"
                 >{{ t("contact.info.email") }}</a
               >
