@@ -52,8 +52,8 @@ onUnmounted(() => {
             class="h-12 sm:h-16"
             :src="
               isScrolled
-                ? './public/img/LogoSolo.svg'
-                : './public/img/logoSoloW.svg'
+                ? '/img/LogoSolo.svg'
+                : '/img/logoSoloW.svg'
             "
             alt=""
           />
