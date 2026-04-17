@@ -52,7 +52,7 @@ const scrollToSection = (sectionId: string) => {
           <div class="text-2xl lg:text-3xl font-bold mb-4">
             <span
               class="bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent"
-              >Guitierry</span
+              >Gutthierry</span
             >
             <span class="text-white"> Mariano</span>
           </div>

@@ -6,18 +6,17 @@ const { t } = useI18n();
 
 <template>
   <div
-    class="marquee-wrapper relative overflow-hidden border-y border-yellow-600"
-    style="background: linear-gradient(to right, #92702A, #D4AF37, #F5D97A, #D4AF37, #92702A);"
+    class="marquee-wrapper relative bg-gradient-to-r from-primary-700 via-primary-950 to-primary-700 border-y border-primary-800 overflow-hidden"
   >
     <div class="marquee-track py-3 sm:py-4">
       <div class="marquee-group">
         <span
           v-for="n in 10"
           :key="`a-${n}`"
-          class="marquee-item text-yellow-950 font-semibold text-sm sm:text-base md:text-lg tracking-wide inline-flex items-center gap-3"
+          class="marquee-item text-white font-semibold text-sm sm:text-base md:text-lg tracking-wide inline-flex items-center gap-3"
         >
           <svg
-            class="w-4 h-4 sm:w-5 sm:h-5 text-yellow-900 flex-shrink-0"
+            class="w-4 h-4 sm:w-5 sm:h-5 text-accent-300 flex-shrink-0"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -36,10 +35,10 @@ const { t } = useI18n();
         <span
           v-for="n in 10"
           :key="`b-${n}`"
-          class="marquee-item text-yellow-950 font-semibold text-sm sm:text-base md:text-lg tracking-wide inline-flex items-center gap-3"
+          class="marquee-item text-white font-semibold text-sm sm:text-base md:text-lg tracking-wide inline-flex items-center gap-3"
         >
           <svg
-            class="w-4 h-4 sm:w-5 sm:h-5 text-yellow-900 flex-shrink-0"
+            class="w-4 h-4 sm:w-5 sm:h-5 text-accent-300 flex-shrink-0"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
