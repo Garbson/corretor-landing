@@ -23,19 +23,26 @@ const openWhatsApp = () => {
     <!-- Navbar incluído na Hero Section -->
     <AppNavbar />
 
-    <!-- Background Gradient Animado -->
-    <!-- Background Video -->
+    <!-- Background Video (desktop) -->
     <video
       autoplay
       muted
       loop
-      class="absolute inset-0 w-full h-full object-cover"
+      playsinline
+      class="absolute inset-0 w-full h-full object-cover hidden sm:block"
     >
       <source
         src="https://res.cloudinary.com/dvuwndt7x/video/upload/v1767096322/gut_hwhh2d.mov"
         type="video/mp4"
       />
     </video>
+
+    <!-- Background Image (mobile) -->
+    <img
+      src="/img/mobile.jpg"
+      alt="Gutthierry Mariano Corretor"
+      class="absolute inset-0 w-full h-full object-cover sm:hidden"
+    />
 
     <!-- Video Overlay Shadow -->
     <div class="absolute inset-0 bg-black/40"></div>
