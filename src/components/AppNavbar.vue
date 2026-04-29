@@ -1,10 +1,22 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from "vue";
 import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
 
 const { t, locale } = useI18n();
+const router = useRouter();
 const isMenuOpen = ref(false);
 const isScrolled = ref(false);
+const isLangOpen = ref(false);
+
+const languages = [
+  { code: "pt", flag: "🇧🇷", label: "Português" },
+  { code: "en", flag: "🇺🇸", label: "English" },
+  { code: "es", flag: "🇪🇸", label: "Español" },
+  { code: "fr", flag: "🇫🇷", label: "Français" },
+];
+
+const currentLang = () => languages.find((l) => l.code === locale.value) ?? languages[0];
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
@@ -12,6 +24,7 @@ const toggleMenu = () => {
 
 const changeLanguage = (lang: string) => {
   locale.value = lang;
+  router.replace(`/${lang}`);
 };
 
 const scrollToSection = (sectionId: string) => {
@@ -141,6 +154,7 @@ onUnmounted(() => {
               <option value="pt">🇧🇷 PT</option>
               <option value="en">🇺🇸 EN</option>
               <option value="es">🇪🇸 ES</option>
+              <option value="fr">🇫🇷 FR</option>
             </select>
             <svg
               class="pointer-events-none absolute right-2.5 top-1/2 h-3.5 w-3.5 -translate-y-1/2"
@@ -208,34 +222,46 @@ onUnmounted(() => {
         >
           <!-- Mobile Language Selector -->
           <div class="sm:hidden mb-3 relative">
-            <select
-              v-model="locale"
-              @change="changeLanguage(locale)"
+            <button
+              @click="isLangOpen = !isLangOpen"
               :class="[
-                'w-full appearance-none backdrop-blur-md border rounded-lg px-3 pr-9 py-2 text-sm font-medium focus:outline-none transition-all cursor-pointer',
+                'w-full flex items-center justify-between border rounded-lg px-4 py-3.5 text-base font-medium transition-all',
                 isScrolled
-                  ? 'bg-white/50 border-gray-200 focus:border-primary-600 focus:ring-2 focus:ring-primary-100 hover:bg-white text-gray-700'
-                  : 'bg-white/10 border-white/30 focus:border-accent-300 focus:ring-2 focus:ring-white/20 hover:bg-white/20 text-white',
+                  ? 'bg-white/50 border-gray-200 text-gray-700'
+                  : 'bg-white/10 border-white/30 text-white',
               ]"
             >
-              <option value="pt">🇧🇷 Português</option>
-              <option value="en">🇺🇸 English</option>
-              <option value="es">🇪🇸 Español</option>
-            </select>
-            <svg
-              class="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2"
-              :class="isScrolled ? 'text-gray-500' : 'text-white/90'"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+              <span>{{ currentLang().flag }} {{ currentLang().label }}</span>
+              <svg
+                class="h-4 w-4 transition-transform"
+                :class="isLangOpen ? 'rotate-180' : ''"
+                fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div
+              v-if="isLangOpen"
+              :class="[
+                'absolute z-50 w-full mt-1 rounded-xl overflow-hidden shadow-xl border',
+                isScrolled ? 'bg-white border-gray-100' : 'bg-gray-900 border-white/10',
+              ]"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
+              <button
+                v-for="lang in languages"
+                :key="lang.code"
+                @click="changeLanguage(lang.code); isLangOpen = false"
+                :class="[
+                  'w-full flex items-center gap-3 px-4 py-4 text-base font-medium transition-all',
+                  locale === lang.code
+                    ? (isScrolled ? 'bg-primary-50 text-primary-950' : 'bg-white/10 text-white')
+                    : (isScrolled ? 'text-gray-700 hover:bg-gray-50' : 'text-white/80 hover:bg-white/10'),
+                ]"
+              >
+                <span class="text-2xl">{{ lang.flag }}</span>
+                <span>{{ lang.label }}</span>
+              </button>
+            </div>
           </div>
 
           <button

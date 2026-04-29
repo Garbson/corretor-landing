@@ -1,4 +1,11 @@
 const ogData = {
+  fr: {
+    title: "Gutthierry Mariano - Courtier Immobilier",
+    description:
+      "Spécialiste en investissements immobiliers à Itapema et Porto Belo - Santa Catarina, Brésil. Fort potentiel de valorisation, analyse stratégique et accès exclusif au pré-lancement.",
+    url: "https://gutthierryimoveis.com/fr",
+    locale: "fr_FR",
+  },
   pt: {
     title: "Gutthierry Mariano - Corretor de Imóveis",
     description:
@@ -28,6 +35,7 @@ const localeMap: Record<string, keyof typeof ogData> = {
   "/br": "pt",
   "/en": "en",
   "/es": "es",
+  "/fr": "fr",
 };
 
 async function serveIndex(request: Request, env: any, og: (typeof ogData)[keyof typeof ogData]): Promise<Response> {

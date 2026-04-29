@@ -1,19 +1,20 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
 import i18n from "../i18n";
+import HomeView from "../views/HomeView.vue";
 
 const langToLocale: Record<string, string> = {
   pt: "pt",
   br: "pt",
   en: "en",
   es: "es",
+  fr: "fr",
 };
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: "/:lang(pt|br|en|es)?",
+      path: "/:lang(pt|br|en|es|fr)?",
       name: "home",
       component: HomeView,
     },

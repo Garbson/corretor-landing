@@ -5,8 +5,17 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <section id="about" class="relative py-8 sm:py-12 bg-white">
+  <section id="about" class="relative pt-2 pb-8 sm:py-12 bg-white">
     <div class="container mx-auto px-4">
+      <!-- Foto do Gutthierry -->
+      <div class="flex justify-center mb-2">
+        <img
+          src="/img/gut.png"
+          alt="Gutthierry Mariano"
+          class="h-96 w-auto object-contain drop-shadow-xl"
+        />
+      </div>
+
       <!-- Badge and Title -->
       <div class="text-center mb-6">
         <div class="inline-block mb-4">

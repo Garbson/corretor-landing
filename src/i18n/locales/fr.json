@@ -1,0 +1,534 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "testimonials": "Témoignages",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Courtier Spécialiste à Itapema et Porto Belo",
+    "badgeMobile": "Spécialiste en Investissements",
+    "title": "Votre investissement immobilier à Itapema et Porto Belo - Santa Catarina",
+    "subtitle": "Projets à fort potentiel de valorisation, analyse stratégique et accès exclusif au pré-lancement.",
+    "cta": "Consulter les meilleures options",
+    "ctaSecondary": "Parler à Guitierry",
+    "whatsappMessage": "Bonjour Guitierry ! Je souhaite en savoir plus sur les investissements immobiliers sur la côte de Santa Catarina.",
+    "stats": {
+      "experienceLabel": "Années d'Expérience",
+      "propertiesLabel": "Propriétés Vendues",
+      "clientsLabel": "Clients Satisfaits"
+    }
+  },
+  "marquee": {
+    "message": "Financement direct avec le promoteur · Sans intérêts · Payez en jusqu'à 120 mensualités"
+  },
+  "about": {
+    "badge": "Propriétés Sélectionnées et Limitées",
+    "title": "Votre investissement au Brésil en bord de mer valorisant de 15% à 30% par an",
+    "subtitle": "",
+    "description": "Découvrez des opportunités exclusives en pré-lancement à Itapema et Porto Belo, avec mon conseil spécialisé pour garantir sécurité et rentabilité.",
+    "photoPlaceholder": "Photo Professionnelle",
+    "photoDescription": "Votre courtier spécialiste",
+    "certifications": {
+      "title": "Certifications et Reconnaissances",
+      "subtitle": "Qualification professionnelle prouvée"
+    },
+    "badges": {
+      "topBroker": "Top Courtier",
+      "specialist": "Spécialiste"
+    },
+    "stats": {
+      "experience": "10+",
+      "experienceLabel": "Années d'Expérience",
+      "properties": "US$ 15M+",
+      "propertiesLabel": "En Affaires Conclues",
+      "clients": "98%",
+      "clientsLabel": "Taux de Réussite"
+    }
+  },
+  "investment": {
+    "badge": "Avantages d'investir sur la côte de Santa Catarina",
+    "title": "Pourquoi Itapema et Porto Belo sont les meilleurs choix pour votre prochain investissement ?",
+    "subtitle": "",
+    "cards": {
+      "leisure": {
+        "title": "Forte valorisation immobilière",
+        "description": "Itapema et Porto Belo sont reconnues pour la croissance constante de leurs marchés immobiliers. Avec une forte demande et un rythme de développement rapide, la valorisation des biens dans la région garantit des rendements solides aux investisseurs."
+      },
+      "safety": {
+        "title": "Qualité de vie et tourisme",
+        "description": "Connues pour leurs infrastructures de qualité, Itapema et Porto Belo offrent un style de vie unique axé sur les loisirs et le bien-être. Le tourisme stimule l'économie locale, augmentant encore la valeur des propriétés et garantissant une excellente qualité de vie."
+      },
+      "income": {
+        "title": "Emplacement stratégique",
+        "description": "Situées au cœur de la côte de Santa Catarina, Itapema et Porto Belo ont un accès facile aux grands centres urbains et aux autoroutes, devenant des destinations idéales pour vivre et investir."
+      }
+    },
+    "cardCta": "Voir les opportunités",
+    "ctaText": "Prêt à découvrir les meilleures opportunités d'investissement ?",
+    "ctaButton": "Parler au Spécialiste"
+  },
+  "transformation": {
+    "title": "La transformation de Porto Belo et Itapema se déroule maintenant",
+    "subtitle": "Comprenez pourquoi Porto Belo se valorise autant :",
+    "description": "La ville a structuré un Masterplan avec 22 grands travaux, axés sur la mobilité, le tourisme, les infrastructures et la qualité de vie. Cela réduit les risques, augmente la demande et accélère la valorisation immobilière.",
+    "items": {
+      "infrastructure": {
+        "emoji": "🌆",
+        "title": "INFRASTRUCTURE URBAINE",
+        "bullets": [
+          "Élargissement et modernisation des avenues principales",
+          "Création de nouvelles voies structurantes",
+          "Pavage et requalification urbaine",
+          "Installation de câblage souterrain",
+          "Extension de l'assainissement de base",
+          "Drainage et prévention des inondations"
+        ]
+      },
+      "mobility": {
+        "emoji": "🚗",
+        "title": "MOBILITÉ ET ACCÈS",
+        "bullets": [
+          "Nouveaux accès à la ville",
+          "Amélioration de la liaison avec la BR-101",
+          "Ouverture de couloirs de mobilité",
+          "Réorganisation du trafic urbain",
+          "Extension des pistes cyclables et mobilité durable"
+        ]
+      },
+      "tourism": {
+        "emoji": "🌊",
+        "title": "TOURISME ET FRONT DE MER",
+        "bullets": [
+          "Élargissement de la plage",
+          "Réaménagement complet du front de mer",
+          "Construction d'une jetée touristique pour les croisières",
+          "Infrastructure pour accueillir des navires internationaux",
+          "Nouveaux espaces de loisirs en bord de mer",
+          "Valorisation des plages et espaces publics"
+        ]
+      },
+      "quality": {
+        "emoji": "🌳",
+        "title": "QUALITÉ DE VIE ET LOISIRS",
+        "bullets": [
+          "Création de parcs urbains planifiés",
+          "Espaces verts et zones de convivialité",
+          "Équipements publics modernes",
+          "Encouragement du tourisme durable",
+          "Développement de pôles gastronomiques"
+        ]
+      },
+      "economy": {
+        "emoji": "🏙️",
+        "title": "DÉVELOPPEMENT ÉCONOMIQUE",
+        "bullets": [
+          "Planification des zones d'expansion immobilière",
+          "Organisation de la croissance urbaine",
+          "Encouragement de nouveaux projets",
+          "Renforcement du tourisme comme moteur économique"
+        ]
+      },
+      "meaning": {
+        "emoji": "📊",
+        "title": "CE QUE CELA SIGNIFIE EN PRATIQUE",
+        "bullets": [
+          "✔️ Croissance planifiée = moins de risque",
+          "✔️ Infrastructure prête = plus de demande",
+          "✔️ Tourisme fort = haute liquidité",
+          "✔️ Entrée anticipée = plus grande valorisation"
+        ]
+      }
+    }
+  },
+  "expert": {
+    "name": "Gutthierry Mariano",
+    "subtitle": "Consultant Immobilier",
+    "title": "L'un des Champions des Ventes de la 3ème Plus Grande Agence Immobilière du Brésil",
+    "description": "Je suis spécialiste des investissements immobiliers sur la côte de Santa Catarina, avec de hautes performances de vente au sein de l'une des plus grandes agences immobilières du Brésil.\n\nJ'aide les investisseurs du Brésil et de l'étranger à prendre des décisions sûres et stratégiques, axées sur la valorisation du patrimoine et des rendements prévisibles.\n\nJ'opère à Itapema et Porto Belo, régions qui se distinguent parmi les taux de valorisation les plus élevés du pays, avec des moyennes historiques entre 15% et 30% par an.",
+    "agency": {
+      "brand": "Novo Global",
+      "tagline": "Je fais partie de la troisième plus grande agence immobilière du Brésil.",
+      "stats": {
+        "sales": "R$ 1,3Md+",
+        "salesLabel": "en ventes",
+        "clients": "2 900+",
+        "clientsLabel": "clients investisseurs",
+        "brokers": "500+",
+        "brokersLabel": "Courtiers Actifs",
+        "countries": "dans 4 pays",
+        "countriesLabel": "USA, Portugal, Angleterre et Brésil"
+      },
+      "benefits": {
+        "title": "Avantages exclusifs pour vous",
+        "item1": "Partenariat avec les plus grands promoteurs",
+        "item2": "10 ans pour payer",
+        "item3": "Financement sans intérêts directement avec le promoteur",
+        "item4": "Flux de Paiement Flexible",
+        "item5": "Processus 100% Numérique et Sécurisé"
+      }
+    },
+    "achievements": {
+      "item1": "L'un des champions des ventes",
+      "item2": "3ème plus grande agence immobilière du Brésil",
+      "item3": "Valorisation de 15% à 25% par an"
+    },
+    "metrics": {
+      "sales": "R$ 50M+",
+      "salesLabel": "En ventes réalisées",
+      "clients": "200+",
+      "clientsLabel": "Investisseurs accompagnés",
+      "experience": "10+",
+      "experienceLabel": "Années d'expérience",
+      "regions": "3",
+      "regionsLabel": "Villes spécialisées"
+    },
+    "buttons": {
+      "invest": "Je veux investir maintenant",
+      "consulting": "Demander un conseil"
+    }
+  },
+  "statsBanner": {
+    "properties": {
+      "value": "11",
+      "suffix": "+",
+      "label": "Propriétés disponibles"
+    },
+    "launches": {
+      "value": "17",
+      "suffix": "+",
+      "label": "Prochains lancements"
+    },
+    "satisfaction": {
+      "value": "97",
+      "suffix": "%",
+      "label": "Satisfaction des clients"
+    }
+  },
+  "gallery": {
+    "title": "Portefeuille de Propriétés",
+    "subtitle": "Découvrez quelques-unes des propriétés exclusives que je commercialise sur la côte de Santa Catarina",
+    "properties": {
+      "property1": {
+        "type": "Appartement",
+        "title": "Majestic",
+        "location": "Balneário Camboriú",
+        "area": "85 à 130m²",
+        "rooms": "Plusieurs options",
+        "price": "R$ 2 800/mois",
+        "downPayment": "Apport à partir de : R$ 98 000"
+      },
+      "property2": {
+        "type": "Appartement",
+        "title": "One Bay",
+        "location": "Balneário Camboriú",
+        "area": "88 à 105m²",
+        "rooms": "Plusieurs options",
+        "price": "R$ 2 000/mois + mensualité",
+        "downPayment": "Apport à partir de : R$ 70 000"
+      },
+      "property3": {
+        "type": "Appartement",
+        "title": "Conrado",
+        "location": "Balneário Camboriú",
+        "area": "65 à 148m²",
+        "rooms": "Plusieurs options",
+        "price": "R$ 2 200/mois + mensualité",
+        "downPayment": "Apport à partir de : R$ 90 000"
+      },
+      "property4": {
+        "type": "Appartement",
+        "title": "Mar Amar",
+        "location": "Balneário Camboriú",
+        "area": "95 à 115m²",
+        "rooms": "Plusieurs options",
+        "price": "R$ 2 500/mois + mensualité",
+        "downPayment": "Apport à partir de : R$ 89 900"
+      },
+      "property5": {
+        "type": "Appartement",
+        "title": "Ocean Tower",
+        "location": "Balneário Camboriú",
+        "area": "85m²",
+        "rooms": "Plusieurs options",
+        "price": "R$ 2 690/mois + mensualité",
+        "downPayment": "Apport à partir de : R$ 83 000"
+      },
+      "property6": {
+        "type": "Appartement",
+        "title": "Palm Beach",
+        "location": "Balneário Camboriú",
+        "area": "85 à 112m²",
+        "rooms": "Plusieurs options",
+        "price": "R$ 2 000/mois + mensualité",
+        "downPayment": "Apport à partir de : R$ 66 500"
+      }
+    },
+    "cta": {
+      "text": "Intéressé à voir plus de propriétés ou à planifier une visite ?",
+      "button": "Voir Plus de Propriétés"
+    },
+    "consultButton": "Consulter la Propriété"
+  },
+  "services": {
+    "badge": "Nos Services",
+    "title": "Services Spécialisés",
+    "subtitle": "Solutions complètes pour vos investissements immobiliers sur la côte de Santa Catarina",
+    "learnMore": "En savoir plus",
+    "process": {
+      "title": "Comment Fonctionne le Processus",
+      "subtitle": "Un processus simple et transparent pour votre sécurité",
+      "steps": {
+        "initial": {
+          "title": "Consultation Initiale",
+          "description": "Nous comprenons vos besoins et objectifs"
+        },
+        "research": {
+          "title": "Recherche & Analyse",
+          "description": "Nous cherchons les meilleures opportunités du marché"
+        },
+        "negotiation": {
+          "title": "Négociation",
+          "description": "Nous négocions le meilleur prix et les meilleures conditions"
+        },
+        "closing": {
+          "title": "Finalisation",
+          "description": "Nous gérons toute la documentation et la livraison"
+        }
+      },
+      "cta": "Commencer Maintenant"
+    },
+    "whatsappButton": "Parler sur WhatsApp",
+    "startButton": "Démarrer sur WhatsApp",
+    "items": {
+      "buying": {
+        "title": "Investissement Stratégique",
+        "description": "J'identifie les meilleures opportunités d'investissement à Itapema et Porto Belo avec analyse du ROI et potentiel de valorisation."
+      },
+      "selling": {
+        "title": "Vente Stratégique",
+        "description": "Marketing premium et négociation qualifiée pour vendre votre bien à la meilleure valeur du marché avec une rentabilité maximale."
+      },
+      "consultation": {
+        "title": "Conseil en Investissement",
+        "description": "Analyse complète du marché, étude de faisabilité et planification stratégique pour vos investissements côtiers."
+      },
+      "evaluation": {
+        "title": "Évaluation & Analyse",
+        "description": "Évaluation professionnelle avec analyse de marché, potentiel de valorisation et opportunités d'affaires."
+      }
+    }
+  },
+  "process": {
+    "title": "Investir en toute sécurité n'a jamais été aussi simple.",
+    "subtitle": "Comprenez comment fonctionne mon conseil immobilier en 3 étapes :",
+    "steps": {
+      "step1": {
+        "title": "Compréhension et planification",
+        "description": "Parlons pour comprendre votre profil d'investisseur et créer un plan personnalisé qui aligne vos objectifs avec les meilleures opportunités du marché."
+      },
+      "step2": {
+        "title": "Sélection et analyse des opportunités",
+        "description": "Je sélectionnerai les meilleures propriétés, en présentant des études de faisabilité pour garantir que votre choix soit sûr et rentable."
+      },
+      "step3": {
+        "title": "Accompagnement complet à l'achat",
+        "description": "Je serai avec vous à chaque étape de l'achat, garantissant sécurité et transparence du début à la fin."
+      }
+    },
+    "cta": "Prendre contact"
+  },
+  "testimonials": {
+    "title": "Témoignages Réels",
+    "subtitle": "Témoignages réels de clients qui ont confié leurs investissements et décisions immobilières à Gutthierry Mariano",
+    "stats": {
+      "rating": "4.9/5",
+      "transactions": "en transactions",
+      "investors": "investisseurs satisfaits"
+    },
+    "indicators": {
+      "appreciation": "Valorisation Moyenne",
+      "successRate": "Taux de Réussite",
+      "roi": "Mois Moyen ROI",
+      "support": "Support Dédié"
+    },
+    "badges": {
+      "creci": "CRECI Certifié",
+      "topBroker": "Top 1% Courtiers",
+      "certified": "Spécialiste Certifié"
+    },
+    "items": [
+      {
+        "name": "Carlos Henrique",
+        "location": "São Paulo, Brésil",
+        "text": "J'ai déjà investi dans l'immobilier auparavant, mais jamais avec une telle clarté des chiffres. Gutthierry m'a montré le flux de trésorerie, la valorisation projetée et le bon timing.",
+        "rating": 5
+      },
+      {
+        "name": "João Rodrigues",
+        "location": "Lisbonne, Portugal",
+        "text": "Même étant au Portugal, je me suis senti extrêmement en sécurité pour investir à Porto Belo. Gutthierry était très technique, a expliqué le Masterplan de la ville et les chiffres de l'investissement.",
+        "rating": 5
+      },
+      {
+        "name": "Michael Turner",
+        "location": "Orlando, États-Unis",
+        "text": "I was looking for a safe real estate investment in Brazil, and Gutthierry delivered exactly that. Clear numbers, solid strategy and constant follow-up.",
+        "rating": 5
+      },
+      {
+        "name": "Rafael Mendes",
+        "location": "Belo Horizonte, Brésil",
+        "text": "Ce qui m'a convaincu de conclure, c'était la transparence. Gutthierry a montré les risques, les scénarios et les projections réelles.",
+        "rating": 5
+      },
+      {
+        "name": "Alejandro Gómez",
+        "location": "Madrid, Espagne",
+        "text": "Excellent suivi du début à la fin. L'investissement a été très bien expliqué et structuré.",
+        "rating": 5
+      },
+      {
+        "name": "Martín López",
+        "location": "Buenos Aires, Argentine",
+        "text": "Je cherchais à investir sur la côte brésilienne en toute sécurité. J'ai reçu des données concrètes sur la valorisation, le tourisme et la liquidité.",
+        "rating": 5
+      },
+      {
+        "name": "Felipe Azevedo",
+        "location": "Curitiba, Brésil",
+        "text": "Je n'ai pas seulement acheté une propriété, j'ai acheté une stratégie. Le timing a été décisif.",
+        "rating": 5
+      },
+      {
+        "name": "Daniel Foster",
+        "location": "Toronto, Canada",
+        "text": "This is long-term investing done right. Transparent, professional and strategic.",
+        "rating": 5
+      },
+      {
+        "name": "Ricardo Almeida",
+        "location": "Porto, Portugal",
+        "text": "Tout très clair, technique et objectif. Excellente option pour ceux qui veulent investir au Brésil.",
+        "rating": 5
+      },
+      {
+        "name": "Sebastián Rojas",
+        "location": "Santiago, Chili",
+        "text": "Le différentiel était la vision d'avenir. J'ai compris exactement pourquoi Porto Belo est en pleine croissance.",
+        "rating": 5
+      },
+      {
+        "name": "Eduardo Nogueira",
+        "location": "Campinas, Brésil",
+        "text": "Ma décision était de changer de vie. J'ai reçu une orientation complète sur les quartiers, la croissance et les standards de construction.",
+        "rating": 5
+      },
+      {
+        "name": "Mariana Lopes",
+        "location": "Florianópolis, Brésil",
+        "text": "Sécurité, clarté et soin dans chaque détail. Je me suis sentie sereine du début à la fin.",
+        "rating": 5
+      },
+      {
+        "name": "Renato Figueiredo",
+        "location": "Ribeirão Preto, Brésil",
+        "text": "Attention, patience et beaucoup de connaissances. Aujourd'hui je réalise mon rêve de vivre sur la côte en toute sécurité.",
+        "rating": 5
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Nous Contacter",
+    "title": "Parlons de Votre Investissement ?",
+    "subtitle": "Contactez-nous et découvrez les meilleures opportunités d'investissement sur la côte de Santa Catarina",
+    "whatsappMessage": "Bonjour Guitierry ! Je souhaite en savoir plus sur les investissements immobiliers sur la côte de Santa Catarina.",
+    "whatsapp": {
+      "title": "Parler Directement sur WhatsApp",
+      "description": "Service personnalisé et analyse des opportunités d'investissement en temps réel",
+      "button": "Ouvrir WhatsApp",
+      "availability": "Service prioritaire pour les investisseurs • Réponse rapide garantie"
+    },
+    "info": {
+      "phoneTitle": "Téléphone",
+      "phone": "+55 (47) 98914-1108",
+      "callNow": "Appeler Maintenant",
+      "emailTitle": "E-mail",
+      "email": "gutthierryconsultoria@gmail.com",
+      "sendEmail": "Envoyer un E-mail",
+      "locationTitle": "Localisation",
+      "address": "Itapema et Porto Belo - SC",
+      "viewMap": "Voir sur la Carte"
+    },
+    "social": {
+      "title": "Suivez sur les Réseaux Sociaux"
+    }
+  },
+  "faq": {
+    "badge": "Questions Fréquentes",
+    "title": "Principales Questions des Investisseurs au Brésil et à l'Étranger",
+    "subtitle": "Réponses aux principales questions sur l'investissement immobilier sur la côte de Santa Catarina",
+    "items": [
+      {
+        "question": "Puis-je acheter une propriété à Porto Belo en vivant hors du Brésil ?",
+        "answer": "Oui. Plus de 40% de mes clients résident hors du Brésil. Tout le processus peut être effectué 100% à distance, avec envoi de documents numériques, signature électronique et accompagnement juridique. Le paiement peut être effectué via des virements internationaux légalisés."
+      },
+      {
+        "question": "Comment fonctionne le paiement échelonné directement avec le promoteur ?",
+        "answer": "L'échelonnement est l'un des plus grands avantages de la région. Il fonctionne normalement avec un apport entre 20% et 30% de la valeur du bien et le solde échelonné directement avec le promoteur en jusqu'à 100 ou 120 mois."
+      },
+      {
+        "question": "Pourquoi investir à Porto Belo et pas dans d'autres villes côtières ?",
+        "answer": "Porto Belo est dans un cycle initial de valorisation accélérée. La ville enregistre des taux de valorisation moyens entre 15% et 20% par an, portés par des travaux d'infrastructure, le Masterplan urbain, la nouvelle marina et la forte croissance touristique."
+      },
+      {
+        "question": "L'achat sur plan est-il vraiment sûr ?",
+        "answer": "Oui, à condition de travailler avec des promoteurs solides et une analyse juridique adéquate. Nous travaillons uniquement avec des entreprises ayant un historique de livraisons et un calendrier financier validé."
+      },
+      {
+        "question": "Puis-je générer des revenus locatifs même sans vivre au Brésil ?",
+        "answer": "Oui. Porto Belo et la région reçoivent plus d'un million de touristes par saison. La location courte durée peut générer une rentabilité annuelle entre 6% et 10%, en plus de la valorisation du bien."
+      },
+      {
+        "question": "Quel est le profil idéal pour investir dans ces biens ?",
+        "answer": "Les investisseurs qui recherchent la protection patrimoniale, la diversification, l'effet de levier et des rendements supérieurs à la moyenne. La plupart des acheteurs sont des entrepreneurs et des professionnels libéraux."
+      },
+      {
+        "question": "Y a-t-il un risque de suroffre de biens dans la région ?",
+        "answer": "Pas à court et moyen terme. La demande est soutenue par la croissance démographique, le tourisme et les limitations géographiques de Porto Belo, ce qui aide à maintenir l'équilibre entre l'offre et la demande."
+      },
+      {
+        "question": "Quel est le principal avantage d'investir avec moi comme consultant ?",
+        "answer": "Mon travail est basé sur des chiffres, des simulations et une stratégie. J'analyse le profil de l'investisseur, compare les scénarios et me concentre sur les opportunités de pré-lancement, où la valorisation se produit généralement dès les premiers mois."
+      }
+    ],
+    "cta": {
+      "title": "Vous avez encore des questions ?",
+      "subtitle": "Contactez-moi pour un conseil personnalisé sur votre investissement",
+      "button": "Parler au Spécialiste"
+    },
+    "buttons": {
+      "invest": "Je veux investir à Porto Belo",
+      "simulation": "Je veux recevoir une simulation",
+      "expert": "Poser des questions au spécialiste"
+    }
+  },
+  "cta": {
+    "ready": "Prêt à Investir sur la Côte de Santa Catarina ?",
+    "contact": "Identifions ensemble la meilleure opportunité d'investissement pour vous à Itapema ou Porto Belo !",
+    "button": "Parler à Guitierry Maintenant",
+    "stats": {
+      "supportLabel": "Support",
+      "freeLabel": "Gratuit",
+      "yearsLabel": "Années",
+      "salesLabel": "Ventes"
+    }
+  },
+  "footer": {
+    "rights": "Gutthierry Mariano - Courtier Immobilier. Tous droits réservés.",
+    "social": "Suivez-moi sur les réseaux sociaux",
+    "creci": "CRECI/SC",
+    "devSignature": "Développé par Garbson Souza"
+  }
+}
