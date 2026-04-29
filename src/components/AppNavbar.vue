@@ -16,7 +16,8 @@ const languages = [
   { code: "fr", flag: "🇫🇷", label: "Français" },
 ];
 
-const currentLang = () => languages.find((l) => l.code === locale.value) ?? languages[0];
+const currentLang = () =>
+  languages.find((l) => l.code === locale.value) ?? { code: "pt", flag: "🇧🇷", label: "Português" };
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
