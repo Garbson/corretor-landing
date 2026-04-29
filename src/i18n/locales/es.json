@@ -7,7 +7,7 @@
     "contact": "Contacto"
   },
   "hero": {
-    "badge": "Corredor Especialista en Balneário Camboriú, Itapema y Porto Belo",
+    "badge": "Corredor Especialista en Itapema y Porto Belo",
     "badgeMobile": "Especialista en Inversiones",
     "title": "Su inversión inmobiliaria en Itapema y Porto Belo - Santa Catarina",
     "subtitle": "Proyectos con alto potencial de valorización, análisis estratégico y acceso exclusivo al pre-lanzamiento.",
@@ -304,7 +304,7 @@
     "items": {
       "buying": {
         "title": "Inversión Estratégica",
-        "description": "Identifico las mejores oportunidades de inversión en Balneário Camboriú, Itapema y Porto Belo con análisis de ROI y potencial de valorización."
+        "description": "Identifico las mejores oportunidades de inversión en Itapema y Porto Belo con análisis de ROI y potencial de valorización."
       },
       "selling": {
         "title": "Venta Estratégica",
@@ -500,7 +500,7 @@
       },
       {
         "question": "¿Puedo tener renta con alquiler incluso sin vivir en Brasil?",
-        "answer": "Sí. Porto Belo y la región reciben más de 1 millón de turistas por temporada entre Porto Belo, Itapema y Balneário Camboriú. El alquiler de corta temporada puede generar rentabilidad anual entre 6% y 10%, además de la valorización del activo."
+        "answer": "Sí. Porto Belo y la región reciben más de 1 millón de turistas por temporada entre Porto Belo e Itapema. El alquiler de corta temporada puede generar rentabilidad anual entre 6% y 10%, además de la valorización del activo."
       },
       {
         "question": "¿Cuál es el perfil ideal para invertir en estas propiedades?",
@@ -528,7 +528,7 @@
   },
   "cta": {
     "ready": "¿Listo para Invertir en la Costa de Santa Catarina?",
-    "contact": "¡Identifiquemos juntos la mejor oportunidad de inversión para usted en Balneário Camboriú, Itapema o Porto Belo!",
+    "contact": "¡Identifiquemos juntos la mejor oportunidad de inversión para usted en Itapema o Porto Belo!",
     "button": "Hablar con Guitierry Ahora",
     "stats": {
       "supportLabel": "Soporte",

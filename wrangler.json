@@ -1,7 +1,9 @@
 {
   "name": "corretor-landing",
   "compatibility_date": "2025-12-03",
+  "main": "./src/worker.ts",
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    "binding": "ASSETS"
   }
 }

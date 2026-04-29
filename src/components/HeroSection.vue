@@ -18,7 +18,7 @@ const openWhatsApp = () => {
 <template>
   <section
     id="hero"
-    class="relative min-h-screen flex items-center justify-center overflow-hidden py-16 sm:py-20"
+    class="relative min-h-[85vh] sm:min-h-screen flex items-center justify-center overflow-hidden py-16 sm:py-20"
   >
     <!-- Navbar incluído na Hero Section -->
     <AppNavbar />
