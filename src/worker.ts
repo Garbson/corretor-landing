@@ -1,13 +1,9 @@
-interface Env {
-  ASSETS: { fetch(request: Request): Promise<Response> };
-}
-
 const ogData = {
   pt: {
     title: "Gutthierry Mariano - Corretor de Imóveis",
     description:
       "Especialista em investimentos imobiliários em Itapema e Porto Belo - Santa Catarina. Alto potencial de valorização, análise estratégica e acesso exclusivo ao pré-lançamento.",
-    url: "https://gutthierryimoveis.com/br",
+    url: "https://gutthierryimoveis.com/pt",
     locale: "pt_BR",
   },
   en: {
@@ -28,63 +24,49 @@ const ogData = {
 
 const localeMap: Record<string, keyof typeof ogData> = {
   "/": "pt",
+  "/pt": "pt",
   "/br": "pt",
   "/en": "en",
   "/es": "es",
 };
 
+async function serveIndex(request: Request, env: any, og: (typeof ogData)[keyof typeof ogData]): Promise<Response> {
+  const indexUrl = new URL("/index.html", request.url).toString();
+  const response = await env.ASSETS.fetch(new Request(indexUrl));
+
+  if (!response.ok) return response;
+
+  let html = await response.text();
+
+  html = html
+    .replace(/(<meta\s+name="description"\s+content=")[^"]*(")/g, `$1${og.description}$2`)
+    .replace(/(<meta\s+property="og:title"\s+content=")[^"]*(")/g, `$1${og.title}$2`)
+    .replace(/(<meta\s+property="og:description"\s+content=")[^"]*(")/g, `$1${og.description}$2`)
+    .replace(/(<meta\s+property="og:url"\s+content=")[^"]*(")/g, `$1${og.url}$2`)
+    .replace(/(<meta\s+property="og:locale"\s+content=")[^"]*(")/g, `$1${og.locale}$2`)
+    .replace(/(<meta\s+name="twitter:title"\s+content=")[^"]*(")/g, `$1${og.title}$2`)
+    .replace(/(<meta\s+name="twitter:description"\s+content=")[^"]*(")/g, `$1${og.description}$2`);
+
+  return new Response(html, {
+    status: 200,
+    headers: { "content-type": "text/html;charset=UTF-8" },
+  });
+}
+
 export default {
-  async fetch(request: Request, env: Env): Promise<Response> {
+  async fetch(request: Request, env: any): Promise<Response> {
     const url = new URL(request.url);
     const locale = localeMap[url.pathname];
 
-    if (!locale) {
-      return env.ASSETS.fetch(request);
+    if (locale) {
+      return serveIndex(request, env, ogData[locale]);
     }
 
-    const assetRequest = new Request(
-      new URL("/index.html", request.url).toString(),
-      request
-    );
-    const response = await env.ASSETS.fetch(assetRequest);
-    let html = await response.text();
-    const og = ogData[locale];
+    // Arquivos estáticos (.js, .css, imagens, etc.)
+    const assetResponse = await env.ASSETS.fetch(request);
+    if (assetResponse.status !== 404) return assetResponse;
 
-    html = html
-      .replace(
-        /(<meta\s+property="og:title"\s+content=")[^"]*(")/,
-        `$1${og.title}$2`
-      )
-      .replace(
-        /(<meta\s+property="og:description"\s+content=")[^"]*(")/,
-        `$1${og.description}$2`
-      )
-      .replace(
-        /(<meta\s+property="og:url"\s+content=")[^"]*(")/,
-        `$1${og.url}$2`
-      )
-      .replace(
-        /(<meta\s+property="og:locale"\s+content=")[^"]*(")/,
-        `$1${og.locale}$2`
-      )
-      .replace(
-        /(<meta\s+name="description"\s+content=")[^"]*(")/,
-        `$1${og.description}$2`
-      )
-      .replace(
-        /(<meta\s+name="twitter:title"\s+content=")[^"]*(")/,
-        `$1${og.title}$2`
-      )
-      .replace(
-        /(<meta\s+name="twitter:description"\s+content=")[^"]*(")/,
-        `$1${og.description}$2`
-      );
-
-    return new Response(html, {
-      headers: {
-        "content-type": "text/html;charset=UTF-8",
-        "cache-control": "public, max-age=3600",
-      },
-    });
+    // SPA fallback — rotas do Vue não encontradas como arquivo
+    return serveIndex(request, env, ogData.pt);
   },
 };

@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import i18n from "../i18n";
 
 const localeMap: Record<string, string> = {
+  "/pt": "pt",
   "/br": "pt",
   "/en": "en",
   "/es": "es",
@@ -17,8 +18,13 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/br",
+      path: "/pt",
       name: "home-pt",
+      component: HomeView,
+    },
+    {
+      path: "/br",
+      name: "home-br",
       component: HomeView,
     },
     {
